@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>2048 Game</title>
+    <style>
+    	* { 
+    		padding: 0; margin: 1rem;
+    	}
+    	canvas {
+    		background: #eee; display: block; margin: 0 auto;
+    	}
+    	.bg-black {
+    		background-color: black;
+    	}
+
+    	p {
+    		color: white;
+    		text-align: left;
+    		font-size: 1.5rem;
+    	}
+    	h1 {
+    		color: white;
+    		text-align:center;
+    		font-size: 2.5rem;
+    		padding-bottom:1em;
+    	}
+
+    </style>
+</head>
+<body class = "bg-black">
+	<h1>2048 Game - Javascript Implementation</h1>
+	<canvas id="myCanvas" width="370" height="370" style="border:1px solid #000000;"></canvas>
+	
+	<div style="text-align: center;">
+	    <div style="display: inline-block; text-align: left;">
+	    	<p><Strong>Objective:</Strong>Combine tiles and reach 2048.</p>
+			<p><Strong>To Play:</Strong>Use arrow keys to slide tiles. Press r to restart.</p>
+	    </div>
+	</div>
+
+
+	<script src="js/2048Game.js"></script>
+</body>
+</html>
