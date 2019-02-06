@@ -6,41 +6,50 @@
     <title>2048 Game</title>
     <style>
     	* { 
-    		padding: 0; margin: 1rem;
+            font-family: 'Varela Round';
+            color: #EDEDED;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 0 0 25px #979797, 0 0 40px #DB8D10;
     	}
+
+        .bg-image {
+            background-color: black;
+            background-image: url("img/bg-2048-page.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
     	canvas {
-    		background: #eee; display: block; margin: 0 auto;
+    		background: #EDEDED;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
     	}
     	.bg-black {
     		background-color: black;
     	}
 
     	p {
-    		color: white;
-    		text-align: left;
-    		font-size: 1.5rem;
+    		font-size: 1.2rem;
+            text-align: center;
     	}
     	h1 {
-    		color: white;
     		text-align:center;
-    		font-size: 2.5rem;
-    		padding-bottom:1em;
+    		font-size: 3rem;
     	}
 
+        .center {
+            margin: auto;
+        }
     </style>
 </head>
-<body class = "bg-black">
-	<h1>2048 Game - Javascript Implementation</h1>
-	<canvas id="myCanvas" width="370" height="370" style="border:1px solid #000000;"></canvas>
-	
-	<div style="text-align: center;">
-	    <div style="display: inline-block; text-align: left;">
-	    	<p><Strong>Objective:</Strong>Combine tiles and reach 2048.</p>
-			<p><Strong>To Play:</Strong>Use arrow keys to slide tiles. Press r to restart.</p>
-	    </div>
-	</div>
 
-
+<body class = "bg-image">
+    <div class="div-center">
+    	<h1>2048 Game</h1>
+        <p><sup>*</sup>recreated by Jaime Lovera</p>
+    	<canvas id="myCanvas" width="370" height="370" style="border:1px solid #000000;"></canvas>
+        <p>Combine tiles and reach 2048 to win.<br/><br/>Use arrow keys to move.<br/>R to restart.</p>
+    </div>
 	<script src="js/2048Game.js"></script>
 </body>
 </html>

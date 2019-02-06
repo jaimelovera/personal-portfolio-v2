@@ -1,0 +1,177 @@
+html { 
+  background: url(pagebackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+	padding: .5% 2% 40%;
+}
+
+h1 {
+	font-size: 230%;
+}
+
+.navbarblock {
+	font-family: 'Roboto Condensed', sans-serif;
+	max-width: 800px;
+	min-width:500px;
+	margin: auto;
+}
+
+.mainblock {
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 30px;
+	background-image: url(whitebackground.jpg);
+	border-radius: 50px;
+	box-shadow: 7px 7px 2px #A9A9A9;
+	text-align: center;
+	font-size: 120%;
+	opacity: .8;
+	max-width: 800px;
+	min-width:440px;
+	margin: auto;
+	
+}
+
+#profilepic {
+	opacity:0;
+}
+
+.mainblock a {
+	font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+	padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+li {
+    display: inline;
+	float: right;
+}
+
+li a {
+	font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.hoverchange:hover {
+    background-color: #808080;
+	border-radius: 10px;
+}
+
+.active{
+    background-color: #32CD32;
+	color: #000000;
+	border-radius: 10px;
+}
+
+.active:hover{
+	background-color: #00FF00;
+    color: #000000;
+}
+
+.resumebutton {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background-color: #32CD32;
+	color: #000000;
+	border-top: 2px solid #CCCCCC;
+	border-right: 2px solid #333333;
+	border-bottom: 2px solid #333333;
+	border-left: 2px solid #CCCCCC;
+	border-radius: 10px;
+	display: inline-block;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.resumebutton:hover {
+	background-color: #00FF00;
+    color: #000000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 8px 0px;
+    z-index: 1;
+	border-radius: 10px;
+	margin-left: 3px;  
+	text-align:center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #808080;
+	border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+	background-color: #E6E6E6;
+	border-radius: 10px;
+}
+
+.codeblock {
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 20px;
+	background-image: url(whitebackground.jpg);
+	border-radius: 50px;
+	box-shadow: 7px 7px 2px #A9A9A9;
+	text-align: left;
+	font-size: 130%;
+	opacity: .9;
+	overflow:auto;
+	max-width: 1000px;
+	min-width:440px;
+	margin: auto;
+}
+
+.emptyspace {
+	padding: 8px;
+}
+
+.linkbutton {
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+	text-decoration: none;
+	background-color: #F8F8FF;
+	color: #000000;
+	border-top: 2px solid #CCCCCC;
+	border-right: 2px solid #333333;
+	border-bottom: 2px solid #333333;
+	border-left: 2px solid #CCCCCC;
+	border-radius: 10px;
+	display: inline-block;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.linkbutton:hover {
+	background-color: #DCDCDC;
+    color: #000000;
+}

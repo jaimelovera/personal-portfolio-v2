@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jaime Lovera</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script src="jquery-3.2.1.min.js"></script>
+	<link rel="icon" href="mainpageicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+	<div class="navbarblock">
+		<ul>
+			<li class="hoverchange"><a href="https://www.facebook.com/jaime.lovera" target="_blank"><img align="top" src="facebookicon.png" alt="LinkedIn Icon" height="19"/> Facebook</a></li>
+			<li class="hoverchange"><a href="https://www.linkedin.com/in/jaimelovera" target="_blank"><img align="top" src="linkedinicon.png" alt="LinkedIn Icon" height="20"/> LinkedIn</a></li>
+			<li class="dropdown">
+				<a class="dropbtn" href="programmingprojects/programmingprojects.html">Programming Projects</a>
+				<div class="dropdown-content">
+					<a href="programmingprojects/2048Game.html">2048 Game</a>
+					<a href="programmingprojects/FitnessCalorieTracker.html">Fitness Calorie Tracker</a>
+					<a href="programmingprojects/thiswebsite.html">jaimelovera.com</a>
+				</div>
+			</li>
+			<li><a class="active" href="index.html">Home</a></li>
+		</ul>
+	</div>
+
+	<div class="mainblock">
+		<img id="profilepic" src="transparentprofilepicture.jpg" alt="Profile Photo" height="250"/>
+		<h1>Hello, I'm Jaime Lovera</h1>
+		<p>This website serves as my personal portfolio, but more 
+		   importantly it serves as my platform to learn HTML, CSS, 
+		   javascript, and anything that sparks my interest.</p>
+		<p><strong>Email:</strong> lovera.jaime@gmail.com</p>
+		<a class="resumebutton" href="../pdf/resume-jaimelovera.pdf" target="_blank"><img src="resumeicon.png" alt="Resume Icon" height="25" align="center"/> Download Resume</a>
+	</div>
+	
+	
+	<script>
+	$(document).ready(function(){
+		$("#profilepic").delay(400).animate({opacity:1}, 1000);
+	});
+	</script>
+	
+</body>
+
+</html>
