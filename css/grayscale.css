@@ -112,7 +112,7 @@
 
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 }
 
@@ -157,7 +157,8 @@
 
 .title-text {
   padding: 0rem 0rem 2rem;
-  font-size: 3rem;
+  font-size: 4rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
 .about-section {
@@ -168,6 +169,7 @@
 
 .about-section p {
   padding: 0rem 0rem 5rem;
+  font-size: 110%;
 }
 
 .scroll-down {
@@ -204,20 +206,27 @@
 
 .projects-section {
   padding: 5rem 0 5rem;
+  background-image: url("../img/projects-bg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .projects-section-bg {
   border-radius: 60px;
   border-style: solid;
-  border-width: 40px;
-  border-color: #161616;
-  background-color: #161616;;
+  border-width: 30px;
+  border-color: #000000;
+  background-color: #000000;;
   
+}
+
+.project-text h4{
+  font-size:180%;
 }
 
 .projects-section .project-text {
   padding: 3rem;
-  font-size: 100%;
+  font-size: 110%;
 }
 
 .projects-section .project-text hr {
@@ -239,6 +248,7 @@
 .contact-section .card {
   border: 0;
   border-bottom: 0.30rem solid #64a19d;
+  background-color: #FFFFFF;
 }
 
 .contact-section .card h4 {
@@ -280,7 +290,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #000000 !important;
 }
 
 .text-primary {
