@@ -119,7 +119,6 @@
 .btn {
   -webkit-box-shadow: 0 0.4rem 0.3rem 0 rgba(95, 150, 145, 0.2) !important;
   box-shadow: 0 0.4rem 0.3rem 0 rgba(95, 150, 145, 0.2) !important;
-  padding: .6rem 1rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: .01rem;
@@ -130,29 +129,16 @@
   color: #000000;
 }
 
-.btn-primary {
-  background-color: #64a19d;
-}
-
-.btn-resume-size {
-  height: 2rem;
-}
-
-.btn-resume:hover {
+.btn:hover {
   background-color: rgba(0, 255, 255, 0.8);
 }
 
-.btn-primary:hover {
-  background-color: #4f837f;
+.btn-resume-pic-size {
+  height: 2rem;
 }
 
-.btn-primary:focus {
-  background-color: #4f837f;
-  color: white;
-}
-
-.btn-primary:active {
-  background-color: #467370 !important;
+.btn-resume {
+  padding: .6rem 1rem;
 }
 
 .title-text {
