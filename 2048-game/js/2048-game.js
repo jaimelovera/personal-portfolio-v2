@@ -229,7 +229,7 @@ function merge(line, direction) {
 }
 
 //moves all tiles in the given direction and adds a new random tile if any tiles are moved.
-function move(direction, newTileOnOff) {
+function move(direction) {
 
 	//copy original line to an array.
 	if(direction == "Up"){
@@ -361,7 +361,7 @@ function move(direction, newTileOnOff) {
 			setTile(3,i,mergedLine4[i]);
 		}
 	}
-	if (tilesChanged == true && newTileOnOff == "On") {
+	if (tilesChanged == true) {
 		newTile();
 	}
 }
@@ -386,57 +386,104 @@ function newTile() {
 	}
 }
 
+//detects swipe gestures for mobile devices.
+function detectSwipe() {
+  swipe_det = new Object();
+  swipe_det.sX = 0; swipe_det.sY = 0; swipe_det.eX = 0; swipe_det.eY = 0;
+  var min_x = 30;  //min x swipe for horizontal swipe
+  var max_x = 30;  //max x difference for vertical swipe
+  var min_y = 50;  //min y swipe for vertical swipe
+  var max_y = 60;  //max y difference for horizontal swipe
+  var direc = "";
+  ele = document.getElementById("myCanvas");
+  ele.addEventListener('touchstart',function(e){
+    var t = e.touches[0];
+    swipe_det.sX = t.screenX; 
+    swipe_det.sY = t.screenY;
+  },false);
+  ele.addEventListener('touchmove',function(e){
+    e.preventDefault();
+    var t = e.touches[0];
+    swipe_det.eX = t.screenX; 
+    swipe_det.eY = t.screenY;    
+  },false);
+  ele.addEventListener('touchend',function(e){
+    //horizontal detection
+    if ((((swipe_det.eX - min_x > swipe_det.sX) || (swipe_det.eX + min_x < swipe_det.sX)) && ((swipe_det.eY < swipe_det.sY + max_y) && (swipe_det.sY > swipe_det.eY - max_y) && (swipe_det.eX > 0)))) {
+      if(swipe_det.eX > swipe_det.sX) direc = "Right";
+      else direc = "Left";
+    }
+    //vertical detection
+    else if ((((swipe_det.eY - min_y > swipe_det.sY) || (swipe_det.eY + min_y < swipe_det.sY)) && ((swipe_det.eX < swipe_det.sX + max_x) && (swipe_det.sX > swipe_det.eX - max_x) && (swipe_det.eY > 0)))) {
+      if(swipe_det.eY > swipe_det.sY) direc = "Down";
+      else direc = "Up";
+    }
+
+    if (direc != "") {
+      move(direc);
+      printBoard();
+    }
+    direc = "";
+    swipe_det.sX = 0; swipe_det.sY = 0; swipe_det.eX = 0; swipe_det.eY = 0;
+  },false);  
+}
+
+//detects arrow key direction press.
+function detectKeyPress () {
+	window.addEventListener('keydown', function (event) {
+		var swoosh = new Audio("mp3/swoosh.mp3");
+		var restart = new Audio("mp3/restart.mp3");
+		key = event.keyCode;
+		if(key==37){
+			if(gameWon() == false){
+		    	move("Left");
+		    	if(gameLost() == false && gameWon() == false){
+		    		swoosh.play();
+		    	}
+		    	printBoard();
+			}
+		}
+		if(key==38){
+			if(gameWon() == false){
+		    	move("Up");
+		    	if(gameLost() == false && gameWon() == false){
+		    		swoosh.play();
+		    	}
+		    	printBoard();
+			}
+		}
+		if(key==39){
+			if(gameWon() == false){
+		    	move("Right");
+		    	if(gameLost() == false && gameWon() == false){
+		    		swoosh.play();
+		    	}
+		    	printBoard();
+			}
+		}
+		if(key==40){
+			if(gameWon() == false){
+		    	move("Down");
+		    	if(gameLost() == false && gameWon() == false){
+		    		swoosh.play();
+		    	}
+		    	printBoard();
+			}
+		}
+		if(key==82){
+			restart.play();
+			reset();
+			printBoard();
+		}
+	});
+}
 
 //starts the game
 function start() {
 		reset();
 		printBoard();
-		window.addEventListener('keydown', function (event) {
-		    var swoosh = new Audio("mp3/swoosh.mp3");
-		    var restart = new Audio("mp3/restart.mp3");
-		    key = event.keyCode;
-		    if(key==37){
-		    	if(gameWon() == false){
-			    	move("Left", "On");
-			    	if(gameLost() == false && gameWon() == false){
-			    		swoosh.play();
-			    	}
-			    	printBoard();
-		    	}
-		    }
-		    if(key==38){
-		    	if(gameWon() == false){
-			    	move("Up", "On");
-			    	if(gameLost() == false && gameWon() == false){
-			    		swoosh.play();
-			    	}
-			    	printBoard();
-		    	}
-		    }
-		    if(key==39){
-		    	if(gameWon() == false){
-			    	move("Right", "On");
-			    	if(gameLost() == false && gameWon() == false){
-			    		swoosh.play();
-			    	}
-			    	printBoard();
-		    	}
-		    }
-		    if(key==40){
-		    	if(gameWon() == false){
-			    	move("Down", "On");
-			    	if(gameLost() == false && gameWon() == false){
-			    		swoosh.play();
-			    	}
-			    	printBoard();
-		    	}
-		    }
-		    if(key==82){
-		    	restart.play();
-		    	reset();
-		    	printBoard();
-		    }
-		});
+		detectKeyPress();
+		detectSwipe();
 }
 
 window.onload = start;
