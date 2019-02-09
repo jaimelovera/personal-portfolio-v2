@@ -133,6 +133,11 @@
   background-color: rgba(0, 255, 255, 0.8);
 }
 
+.btn:focus, .btn:active {
+  background-color: #64a19d;
+  color: #000000;
+}
+
 .btn-resume-pic-size {
   height: 2rem;
 }
