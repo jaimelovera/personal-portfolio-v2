@@ -140,6 +140,7 @@ function reset() {
 	}
 	newTile();
 	newTile();
+	printBoard();
 }
 
 //Check if 2048 was acheived
@@ -473,7 +474,6 @@ function detectKeyPress () {
 		if(key==82){
 			restart.play();
 			reset();
-			printBoard();
 		}
 	});
 }
@@ -481,7 +481,6 @@ function detectKeyPress () {
 //starts the game
 function start() {
 		reset();
-		printBoard();
 		detectKeyPress();
 		detectSwipe();
 }
