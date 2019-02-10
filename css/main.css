@@ -152,6 +152,13 @@
   font-weight:650;
 }
 
+.title-text-projects {
+  padding: 0rem 0rem 2rem;
+  font-size: 4rem;
+  font-weight:650;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white, 0 0 45px white;
+}
+
 .about-section {
   padding-top: 5rem;
   padding-bottom: 15rem;
