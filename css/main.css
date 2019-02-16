@@ -166,8 +166,10 @@
 }
 
 .about-section p {
-  padding: 0rem 0rem 5rem;
+  padding: 0rem 0rem 2rem;
   font-size: 110%;
+  margin: auto;
+  max-width: 80%;
 }
 
 .scroll-down {
