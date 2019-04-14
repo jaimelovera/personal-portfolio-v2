@@ -1,7 +1,7 @@
 #profilepic {
-  max-width: 15rem;
-  max-height: 15rem;
-  border: 0.5rem solid rgba(255,255,255,0.2);
+  max-width: 18rem;
+  max-height: 18rem;
+  border: .6rem solid rgba(255,255,255,0.15);
 }
 
 .img-border {
@@ -166,7 +166,6 @@
 }
 
 .about-section p {
-  padding: 0rem 0rem 2rem;
   font-size: 110%;
   margin: auto;
   max-width: 80%;
@@ -207,7 +206,7 @@
 
 .projects-section {
   padding: 5rem 0 5rem;
-  background-image: url("../img/projects-bg.jpg");
+  background-image: url("../img/projects-bg.png");
   background-attachment: fixed;
   background-size: cover;
 }
