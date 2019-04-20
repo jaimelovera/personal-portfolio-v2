@@ -149,6 +149,7 @@
 }
 
 .about-section {
+  min-height: 40rem;
   padding-top: 5rem;
   padding-bottom: 15rem;
   background: #000000;
@@ -183,7 +184,7 @@
   line-height: 40px;
   text-align: center;
   border-radius: 10px;
-  bottom: 4rem;
+  bottom: 1.5rem;
   left: 50%;
   margin-left: -30px;
   animation: bounce .7s ease infinite;
@@ -210,7 +211,7 @@
   border-style: solid;
   border-width: 30px;
   border-color: #000000;
-  background-color: #000000;;
+  background-color: #000000;
   
 }
 
@@ -267,6 +268,10 @@
   #mainNav {
     font-size:.9rem;
   }
+  .about-section {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+  }
   .title-text-about {
     font-size: 3rem;
   }
@@ -291,6 +296,9 @@
 @media (min-width: 768px) {
   #mainNav {
     font-size:1rem;
+  }
+  .about-section {
+    min-height: 43rem;
   }
   .title-text-about {
     font-size: 4rem;
@@ -324,6 +332,9 @@
   #mainNav {
     font-size:1rem;
   }
+  .about-section {
+    min-height: 50rem;
+  }
   .title-text-about {
     font-size: 5rem;
   }
@@ -341,7 +352,7 @@
   .title-text-projects, .title-text-contact {
     font-size: 5rem;
   }
-  .project-text h4{
+  .project-text h4 {
     font-size:2.5rem;
   }
   .projects-section .project-text {
