@@ -1,6 +1,6 @@
 #profilepic {
-  max-width: 11rem;
-  max-height: 11rem;
+  max-width: 8rem;
+  max-height: 8rem;
   border: .6rem solid rgba(255,255,255,0.15);
 }
 
@@ -149,8 +149,8 @@
 }
 
 .about-section {
-  min-height: 40rem;
-  padding-top: 5rem;
+  min-height: 50rem;
+  padding-top: 3rem;
   padding-bottom: 15rem;
   background-image: url("../img/about-bg.jpg");
   background-attachment: fixed;
@@ -158,9 +158,9 @@
 }
 
 .about-section p {
-  font-size: .9rem;
+  font-size: 1rem;
   margin: auto;
-  max-width:15rem;
+
 }
 
 .about-section h2 {
@@ -273,12 +273,17 @@
   .about-section {
     padding-top: 5rem;
     padding-bottom: 15rem;
+    min-height: 55rem;
+  }
+  #profilepic {
+    max-width: 10rem;
+    max-height: 10rem;
   }
   .title-text-about {
     font-size: 3rem;
   }
   .about-section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width:20rem;
   }
   .about-section h2 {
@@ -288,7 +293,7 @@
     font-size: 3rem;
   }
   .project-text h4{
-    font-size:2rem;
+    font-size:1.8rem;
   }
   .projects-section .project-text {
     font-size: 1rem;
@@ -300,7 +305,7 @@
     font-size:1rem;
   }
   .about-section {
-    min-height: 43rem;
+    min-height: 60rem;
   }
   #profilepic {
     max-width: 14rem;
@@ -320,7 +325,7 @@
     font-size: 4rem;
   }
   .project-text h4{
-    font-size:2.5rem;
+    font-size:2rem;
   }
   .projects-section .project-text {
     font-size: 1.2rem;
@@ -347,27 +352,24 @@
     font-size:1.2rem;
   }
   .about-section {
-    min-height: 50rem;
+    min-height: 60rem;
   }
   .title-text-about {
     font-size: 5rem;
   }
   #profilepic {
-    max-width: 18rem;
-    max-height: 18rem;
+    max-width: 16rem;
+    max-height: 16rem;
   }
   .about-section p {
-    font-size: 2rem;
-    max-width:55rem;
+    font-size: 1.5rem;
+    max-width:70rem;
   }
   .about-section h2 {
-    font-size:1rem;
+    font-size:1.2rem;
   }
   .title-text-projects, .title-text-contact {
     font-size: 5rem;
-  }
-  .project-text h4 {
-    font-size:2.5rem;
   }
   .projects-section .project-text {
     font-size: 1.2rem;
