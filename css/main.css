@@ -1,8 +1,7 @@
 #share {
-  top: 80%;
-  left: 0;
+  top: 40%;
+  left: 0rem;
   position: fixed;
-  z-index: 9999;
 }
 #share a {
   width: 45px;
@@ -13,7 +12,6 @@
   margin-top: 8px;
   font-size: 20px;
   color: #fff;
-  opacity: 0.8;
   transition: opacity 0.1s ease-out;
   transition: font-size 0.1s ease-out;
   transition: width 0.1s ease-out;
@@ -87,10 +85,6 @@
   background-color: #fff;
 }
 
-#mainNav.navbar-shrink .navbar-brand {
-  color: #161616;
-}
-
 #mainNav.navbar-shrink .nav-link {
   color: #161616;
   padding: 1rem 1.5rem .2rem;
@@ -153,9 +147,9 @@
 }
 
 .title-text-about {
-  padding: 0rem 0rem 2rem;
   font-size: 2.5rem;
   font-weight:650;
+  margin-bottom: 0;
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -178,9 +172,9 @@
 }
 
 .about-section {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
   min-height: 50rem;
-  padding-top: 3rem;
-  padding-bottom: 15rem;
   background-image: url("../img/about-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -189,7 +183,6 @@
 .about-section p {
   font-size: 1rem;
   margin: auto;
-
 }
 
 .about-section h2 {
@@ -198,9 +191,8 @@
 }
 
 .projects-section {
-  padding: 5rem 0 5rem;
-  background-image: url("../img/projects-bg.png");
-  background-attachment: fixed;
+  padding: 2rem 0 10rem;
+  background-image: radial-gradient(circle,#87D5D0, #3E6965);
   background-size: cover;
 }
 
@@ -250,43 +242,27 @@
   width: 3rem;
 }
 
-.contact-section .social {
-  margin-top: 2rem;
-}
-
-.contact-section .social a:hover {
-  color: rgba(0, 255, 255, 0.8);
-}
-
-.contact-section .social a:active {
-  color: #fff;
-}
-
 @media (min-width: 375px) {
   #mainNav {
     font-size:.9rem;
   }
   .about-section {
-    padding-top: 5rem;
-    padding-bottom: 15rem;
-    min-height: 58rem;
+    min-height: 30rem;
   }
   #profilepic {
     max-width: 10rem;
     max-height: 10rem;
   }
   .title-text-about {
-    font-size: 3rem;
   }
   .about-section p {
     font-size: 1.2rem;
     max-width:20rem;
   }
   .about-section h2 {
-    font-size:.8rem;
+    font-size:.9rem;
   }
   .title-text-projects, .title-text-contact {
-    font-size: 3rem;
   }
   .project-text h4{
     font-size:1.8rem;
@@ -301,21 +277,20 @@
     font-size:1rem;
   }
   .about-section {
-    min-height: 60rem;
   }
   #profilepic {
     max-width: 14rem;
     max-height: 14rem;
   }
   .title-text-about {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .about-section p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width:35rem;
   }
   .about-section h2 {
-    font-size:1rem;
+    font-size:.9rem;
   }
   .title-text-projects, .title-text-contact {
     font-size: 4rem;
@@ -330,6 +305,8 @@
 
 
 @media (min-width: 992px) {
+  .about-section {
+  }
   .projects-section .project-text {
     padding: 5rem;
   }
@@ -339,20 +316,19 @@
   }
   .about-section p {
     max-width:45rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   #share {
-    top: 50%;
   }
   #share a {
-    width: 55px;
+    width: 60px;
     height: 55px;
-    font-size: 28px;
+    font-size: 30px;
   }
   #share a:hover {
     opacity: 1;
     font-size: 36px;
-    width: 70px;
+    width: 75px;
   }
 }
 
@@ -361,10 +337,8 @@
     font-size:1.2rem;
   }
   .about-section {
-    min-height: 60rem;
   }
   .title-text-about {
-    font-size: 5rem;
   }
   #profilepic {
     max-width: 16rem;
@@ -375,10 +349,9 @@
     max-width:70rem;
   }
   .about-section h2 {
-    font-size:1.2rem;
+    font-size:1rem;
   }
   .title-text-projects, .title-text-contact {
-    font-size: 5rem;
   }
   .projects-section .project-text {
     font-size: 1.2rem;
