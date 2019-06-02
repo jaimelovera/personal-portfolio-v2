@@ -1,13 +1,3 @@
-a {
-  color: inherit;
-  text-decoration: none
-}
-
-a:hover {
-  color: rgba(0, 255, 255, 0.8);
-  text-decoration: none
-}
-
 #share {
   top: 150%;
   left: 0rem;
@@ -46,10 +36,6 @@ a:hover {
 .linkedin-footer {
   font-size: 1.2rem;
 }
-.github-footer:focus, .github-footer:active, .linked-footer:focus, .linked-footer:active {
-  color: #64a19d;
-}
-
 
 #profilepic {
   max-width: 8rem;
@@ -390,10 +376,11 @@ body {
 
 a {
   color: #64a19d;
+  text-decoration: none;
 }
 
-a:focus, a:hover {
-  text-decoration: none;
+a:hover {
+  color: rgba(0, 255, 255, 0.8);
 }
 
 .bg-black {
