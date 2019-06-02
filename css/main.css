@@ -1,5 +1,15 @@
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+a:hover {
+  color: rgba(0, 255, 255, 0.8);
+  text-decoration: none
+}
+
 #share {
-  top: 40%;
+  top: 150%;
   left: 0rem;
   position: fixed;
 }
@@ -16,9 +26,6 @@
   transition: font-size 0.1s ease-out;
   transition: width 0.1s ease-out;
 }
-#share a:hover {
-  opacity: 1;
-}
 #share i {
   position: relative;
   left: 50%;
@@ -33,8 +40,15 @@
 .linkedin {
   background: #0077b5;
 }
-
-
+.github-footer {
+  font-size: 1.2rem;
+}
+.linkedin-footer {
+  font-size: 1.2rem;
+}
+.github-footer:focus, .github-footer:active, .linked-footer:focus, .linked-footer:active {
+  color: #64a19d;
+}
 
 
 #profilepic {
@@ -219,6 +233,7 @@
 
 .contact-section {
   padding: 5rem 0rem 0rem;
+  font-size:.72rem;
 }
 
 .contact-section .card {
@@ -267,6 +282,9 @@
   .projects-section .project-text {
     font-size: 1rem;
   }
+  .contact-section {
+    font-size:1rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -274,6 +292,9 @@
     font-size:1rem;
   }
   .about-section {
+  }
+  #share {
+    top: 35%;
   }
   #profilepic {
     max-width: 14rem;
@@ -298,12 +319,14 @@
   .projects-section .project-text {
     font-size: 1.2rem;
   }
+  .contact-section {
+    font-size:.65rem;
+  }
 }
 
 
 @media (min-width: 992px) {
   .about-section {
-    min-height: 35rem;
   }
   .projects-section .project-text {
     padding: 5rem;
@@ -327,6 +350,9 @@
     opacity: 1;
     font-size: 36px;
     width: 75px;
+  }
+  .contact-section {
+    font-size:1rem;
   }
 }
 
