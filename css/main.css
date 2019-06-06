@@ -313,19 +313,31 @@
 
 @media (min-width: 992px) {
   .about-section {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  .about-section p {
+    max-width:45rem;
+    font-size: 1.3rem;
+  }
+  .about-section h2 {
+    font-size: .9rem;
+  }
+  .title-text-about, .title-text-contact, .title-text-projects {
+    font-size: 3rem;
   }
   .projects-section .project-text {
     padding: 5rem;
   }
   #profilepic {
-    max-width: 16rem;
-    max-height: 16rem;
+    max-width: 12rem;
+    max-height: 12rem;
   }
-  .about-section p {
-    max-width:45rem;
-    font-size: 1.5rem;
+  .about-section a {
+    font-size: 0.7rem;
   }
-  #share {
+  .btn-resume-pic-size {
+    height: 1rem;
   }
   #share a {
     width: 60px;
@@ -338,7 +350,7 @@
     width: 75px;
   }
   .contact-section {
-    font-size:1rem;
+    font-size:0.75rem;
   }
 }
 
