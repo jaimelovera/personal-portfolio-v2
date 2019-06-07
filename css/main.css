@@ -31,15 +31,21 @@
   background: #0077b5;
 }
 .github-footer {
-  font-size: 2em;
+  font-size: 1.25rem;
 }
 .linkedin-footer {
-  font-size: 2em;
+  font-size: 1.25rem;
 }
 
 #profilepic {
-  max-height: 15em;
-  border: 0.5em solid rgba(255,255,255,0.15);
+  max-height: 12rem;
+  border: 0.75em solid rgba(255,255,255,0.15);
+}
+
+.img-fluid {
+  max-width: 65%;
+  max-height: 65%;
+  height: auto;
 }
 
 .img-border {
@@ -50,7 +56,7 @@
 
 #mainNav {
   font-size: 1.4em;
-  min-height: 56px;
+
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: none;
@@ -62,13 +68,13 @@
 #mainNav .nav-link {
   -webkit-transition: none;
   transition: none;
-  padding: 1rem 1.5rem 0.2rem;
+  padding: 1rem 1rem 0.2rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
 #mainNav .nav-link.active {
   color: rgba(255, 255, 255, 0.75);
-  padding: 1rem 1.5rem 0.2rem;
+  padding: 1rem 1rem 0.2rem;
   border-bottom: 0.25rem solid #64a19d;
 }
 
@@ -86,7 +92,7 @@
 
 #mainNav.navbar-shrink .nav-link {
   color: #161616;
-  padding: 1rem 1.5rem 0.2rem;
+  padding: 1rem 1rem 0.2rem;
   border-bottom: 0.25em solid transparent;
 }
 
@@ -116,7 +122,7 @@
 }
 
 .btn {
-  font-size: 0.9em;
+  font-size: 0.8em;
   -webkit-box-shadow: 0 0.4em 0.3em 0 rgba(95, 150, 145, 0.2) !important;
   box-shadow: 0 0.5em 0.5em 0 rgba(95, 150, 145, 0.2) !important;
   font-family: 'Varela Round';
@@ -138,11 +144,11 @@
 }
 
 .btn-resume-pic-size {
-  height: 1.5em;
+  height: 1.4em;
 }
 
 .btn-resume {
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding: 0.6rem 1rem;
 }
 
@@ -174,14 +180,14 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   background-image: url("../img/about-bg.png");
   background-attachment: fixed;
 }
 
 .about-section p {
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin: auto;
 }
 
@@ -197,7 +203,6 @@
   border-width: 30px;
   border-color: #000000;
   background-color: #000000;
-  
 }
 
 .project-text h4{
@@ -219,7 +224,7 @@
 }
 
 .contact-section .card {
-  font-size: 1.5em;
+  font-size: 0.75rem;
   border: 0;
   border-bottom: 0.30rem solid #64a19d;
   background-color: #FFFFFF;
@@ -235,21 +240,6 @@
   border-color: #64a19d;
   border-width: 0.25em;
   width: 3em;
-}
-
-
-
-@media all and (max-width: 1199px) {
-
-} 
-@media all and (max-width: 991px) {
-
-} 
-@media all and (max-width: 768px) {
-
-} 
-@media all and (max-width: 575px) {
-
 }
 
 
@@ -279,6 +269,50 @@ a:hover {
 }
 
 footer {
-  font-size: 1.2em;
+  font-size: 0.8rem;
   padding: 2rem 0 1rem;
 }
+
+
+
+@media (min-width: 576px) {    }
+
+@media (min-width: 768px) {    } 
+
+@media (min-width: 992px) {
+  #share {
+    top: 28%;
+  }
+  #share a {
+    width: 50px;
+    height: 45px;
+    font-size: 25px;
+  }
+  #share a:hover {
+    opacity: 1;
+    font-size: 30px;
+    width: 60px;
+  }
+  #profilepic {
+    max-height: 14.5rem;
+  }
+  .projects-section {
+    padding: 2rem 10rem 5rem;
+  }
+  .contact-section {
+    padding: 2rem 10rem 1rem;
+  }
+} 
+
+@media (min-width: 1200px) {    } 
+
+@media (min-width: 1400px) {
+  body {font-size:11px;}
+} 
+
+@media (min-width: 1600px) {
+  body {font-size:14px;}
+  .about-section h2 {
+    font-size: 0.9em;
+  }
+} 
