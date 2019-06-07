@@ -38,7 +38,7 @@
 }
 
 #profilepic {
-  max-height: 12rem;
+  max-height: 11rem;
   border: 0.75em solid rgba(255,255,255,0.15);
 }
 
@@ -245,7 +245,7 @@
 
 
 body {
-  font-size: 10px;
+  font-size: 9px;
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
   min-width:320px;
@@ -294,20 +294,23 @@ footer {
     width: 60px;
   }
   #profilepic {
-    max-height: 14.5rem;
+    max-height: 13rem;
   }
   .projects-section {
     padding: 2rem 10rem 5rem;
   }
   .contact-section {
-    padding: 2rem 10rem 1rem;
+    padding: 2rem 8rem 1rem;
   }
 } 
 
-@media (min-width: 1200px) {    } 
+@media (min-width: 1200px) {} 
 
 @media (min-width: 1400px) {
   body {font-size:11px;}
+  #profilepic {
+    max-height: 14.5rem;
+  }
 } 
 
 @media (min-width: 1600px) {

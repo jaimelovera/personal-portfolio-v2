@@ -1,10 +1,16 @@
 #body {
-  background-color: gray;
+  background-image: radial-gradient(circle,#87D5D0, #3E6965);
+  background-size: cover;
+  font-size: 1rem;
 }
 canvas {
   background: #EDEDED;
-      display: block;
-      margin: 0 auto;
-      border-radius: 10px;
-      touch-action: none;
+display:flex
+  margin: 0 auto;
+  border-radius: 10px;
+  touch-action: none;
+}
+.img-fluid {
+	min-height: 220px;
+	min-width: 220px;
 }
