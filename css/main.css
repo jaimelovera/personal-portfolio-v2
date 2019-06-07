@@ -1,6 +1,6 @@
 #share {
   top: 150%;
-  left: 0rem;
+  left: 0em;
   position: fixed;
 }
 #share a {
@@ -31,16 +31,15 @@
   background: #0077b5;
 }
 .github-footer {
-  font-size: 1.2rem;
+  font-size: 2em;
 }
 .linkedin-footer {
-  font-size: 1.2rem;
+  font-size: 2em;
 }
 
 #profilepic {
-  max-width: 8rem;
-  max-height: 8rem;
-  border: .6rem solid rgba(255,255,255,0.15);
+  max-height: 15em;
+  border: 0.5em solid rgba(255,255,255,0.15);
 }
 
 .img-border {
@@ -50,7 +49,7 @@
 }
 
 #mainNav {
-  font-size:0.65rem;
+  font-size: 1.4em;
   min-height: 56px;
   padding-top: 0;
   padding-bottom: 0;
@@ -63,14 +62,14 @@
 #mainNav .nav-link {
   -webkit-transition: none;
   transition: none;
-  padding: 1rem 1.5rem .2rem;
+  padding: 1rem 1.5rem 0.2rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
 #mainNav .nav-link.active {
   color: rgba(255, 255, 255, 0.75);
-  padding: 1rem 1.5rem .2rem;
-  border-bottom: 0.2rem solid #64a19d;
+  padding: 1rem 1.5rem 0.2rem;
+  border-bottom: 0.25rem solid #64a19d;
 }
 
 #mainNav .nav-link:hover {
@@ -87,8 +86,8 @@
 
 #mainNav.navbar-shrink .nav-link {
   color: #161616;
-  padding: 1rem 1.5rem .2rem;
-  border-bottom: 0.25rem solid transparent;
+  padding: 1rem 1.5rem 0.2rem;
+  border-bottom: 0.25em solid transparent;
 }
 
 #mainNav.navbar-shrink .nav-link:hover {
@@ -117,14 +116,14 @@
 }
 
 .btn {
-  -webkit-box-shadow: 0 0.4rem 0.3rem 0 rgba(95, 150, 145, 0.2) !important;
-  box-shadow: 0 0.4rem 0.3rem 0 rgba(95, 150, 145, 0.2) !important;
+  font-size: 0.9em;
+  -webkit-box-shadow: 0 0.4em 0.3em 0 rgba(95, 150, 145, 0.2) !important;
+  box-shadow: 0 0.5em 0.5em 0 rgba(95, 150, 145, 0.2) !important;
   font-family: 'Varela Round';
   text-transform: uppercase;
-  letter-spacing: .01rem;
   border: 0;
   border-radius: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   background-color: #64a19d;
   color: #000000;
 }
@@ -139,57 +138,55 @@
 }
 
 .btn-resume-pic-size {
-  height: 1.5rem;
+  height: 1.5em;
 }
 
 .btn-resume {
-  padding: .6rem 1rem;
+  font-size: 1.3em;
+  padding: 0.6rem 1rem;
 }
 
 .title-text-about {
-  font-size: 2.5rem;
-  font-weight:650;
+  font-size: 4em;
+  font-weight:600;
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.95);
 }
 
 .skills-list {
- border-bottom:solid; 
- display: inline-block
+  font-size: 1.1em;
+  margin: auto;
+  border-bottom:solid; 
+  display: inline-block
 }
 
 .title-text-projects {
-  padding: 0rem 0rem 4rem;
-  font-size: 3rem;
+  padding: 0rem 0rem 0.8rem;
+  font-size: 5em;
   font-weight:650;
   text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white, 0 0 45px white;
 }
 
 .title-text-contact {
-  padding: 0rem 0rem 2rem;
-  font-size: 3rem;
+  padding: 0rem 0rem 0.8rem;
+  font-size: 5em;
   font-weight:650;
 }
 
 .about-section {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   background-image: url("../img/about-bg.png");
   background-attachment: fixed;
 }
 
 .about-section p {
-  font-size: 1rem;
-  margin: auto;
-}
-
-.about-section h2 {
-  font-size: 0.7rem;
+  font-size: 1.5em;
   margin: auto;
 }
 
 .projects-section {
-  padding: 2rem 0 10rem;
+  padding: 2rem 0rem 5rem;
   background-image: radial-gradient(circle,#87D5D0, #3E6965);
   background-size: cover;
 }
@@ -204,183 +201,61 @@
 }
 
 .project-text h4{
-  font-size:1.5rem;
+  font-size: 2em;
 }
 
 .projects-section .project-text {
-  font-size: .9rem;
+  font-size: 1.5em;
 }
 
 .projects-section .project-text hr {
   border-color: #64a19d;
-  border-width: .15rem;
+  border-width: 0.1em;
   width: 100%;
 }
 
 .contact-section {
-  padding: 5rem 0rem 0rem;
-  font-size:.72rem;
+  padding: 2rem 0rem 1rem;
 }
 
 .contact-section .card {
+  font-size: 1.5em;
   border: 0;
   border-bottom: 0.30rem solid #64a19d;
   background-color: #FFFFFF;
 }
 
 .contact-section .card h4 {
-  font-size: 1.2rem;
+  font-size: 1em;
   font-family: 'Varela Round';
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
 }
 
 .contact-section .card hr {
   border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
-}
-
-@media (min-width: 375px) {
-  #mainNav {
-    font-size:.9rem;
-  }
-  .about-section {
-  }
-  #profilepic {
-    max-width: 10rem;
-    max-height: 10rem;
-  }
-  .title-text-about {
-  }
-  .about-section p {
-    font-size: 1.2rem;
-    max-width:20rem;
-  }
-  .about-section h2 {
-    font-size:.9rem;
-  }
-  .title-text-projects, .title-text-contact {
-  }
-  .project-text h4{
-    font-size:1.8rem;
-  }
-  .projects-section .project-text {
-    font-size: 1rem;
-  }
-  .contact-section {
-    font-size:1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  #mainNav {
-    font-size:1rem;
-  }
-  .about-section {
-  }
-  #share {
-    top: 35%;
-  }
-  #profilepic {
-    max-width: 14rem;
-    max-height: 14rem;
-  }
-  .title-text-about {
-    font-size: 3.5rem;
-  }
-  .about-section p {
-    font-size: 1.3rem;
-    max-width:35rem;
-  }
-  .about-section h2 {
-    font-size:.9rem;
-  }
-  .title-text-projects, .title-text-contact {
-    font-size: 4rem;
-  }
-  .project-text h4{
-    font-size:2rem;
-  }
-  .projects-section .project-text {
-    font-size: 1.2rem;
-  }
-  .contact-section {
-    font-size:.65rem;
-  }
+  border-width: 0.25em;
+  width: 3em;
 }
 
 
-@media (min-width: 992px) {
-  .about-section {
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-  }
-  .about-section p {
-    max-width:45rem;
-    font-size: 1.3rem;
-  }
-  .about-section h2 {
-    font-size: .9rem;
-  }
-  .title-text-about, .title-text-contact, .title-text-projects {
-    font-size: 3rem;
-  }
-  .projects-section .project-text {
-    padding: 5rem;
-  }
-  #profilepic {
-    max-width: 12rem;
-    max-height: 12rem;
-  }
-  .about-section a {
-    font-size: 0.7rem;
-  }
-  .btn-resume-pic-size {
-    height: 1rem;
-  }
-  #share a {
-    width: 60px;
-    height: 55px;
-    font-size: 30px;
-  }
-  #share a:hover {
-    opacity: 1;
-    font-size: 36px;
-    width: 75px;
-  }
-  .contact-section {
-    font-size:0.75rem;
-  }
+
+@media all and (max-width: 1199px) {
+
+} 
+@media all and (max-width: 991px) {
+
+} 
+@media all and (max-width: 768px) {
+
+} 
+@media all and (max-width: 575px) {
+
 }
 
-@media (min-width: 1440px) {
-  #mainNav {
-    font-size:1.2rem;
-  }
-  .about-section {
-  }
-  .title-text-about {
-  }
-  #profilepic {
-    max-width: 16rem;
-    max-height: 16rem;
-  }
-  .about-section p {
-    font-size: 1.5rem;
-    max-width:70rem;
-  }
-  .about-section h2 {
-    font-size:1rem;
-  }
-  .title-text-projects, .title-text-contact {
-  }
-  .projects-section .project-text {
-    font-size: 1.2rem;
-  }
-}
+
 
 body {
+  font-size: 10px;
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
   min-width:320px;
@@ -404,5 +279,6 @@ a:hover {
 }
 
 footer {
-  padding: 2rem 0 3rem;
+  font-size: 1.2em;
+  padding: 2rem 0 1rem;
 }
