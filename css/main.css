@@ -244,6 +244,12 @@
   border-width: 0.25em;
   width: 3em;
 }
+.contact-email-link {
+  color: inherit;
+}
+.contact-email-link:hover {
+  color: inherit;
+}
 
 
 
