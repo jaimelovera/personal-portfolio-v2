@@ -227,7 +227,7 @@
 }
 
 .contact-section .card {
-  font-size: 1rem;
+  font-size: 0.8rem;
   border: 0;
   border-bottom: 0.30rem solid #64a19d;
   background-color: #E3E3E3;;
@@ -286,15 +286,9 @@ footer {
 
 
 @media screen and (min-width: 576px) {    }
-@media screen and (min-width: 768px) {
-  .card-lower-text {
-    font-size: 0.75em;
-  }
-} 
+@media screen and (min-width: 768px) {    } 
 @media screen and (min-width: 992px) {
-  #share {
-    top: 28%;
-  }
+  #share {top: 28%;}
   #share a {
     width: 50px;
     height: 45px;
@@ -305,15 +299,9 @@ footer {
     font-size: 30px;
     width: 60px;
   }
-  #profilepic {
-    max-height: 13rem;
-  }
-  .projects-section {
-    padding: 2rem 10rem 5rem;
-  }
-  .contact-section {
-    padding: 2rem 8rem 1rem;
-  }
+  #profilepic {max-height: 13rem;}
+  .projects-section {padding: 2rem 10rem 5rem;}
+  .contact-section {padding: 2rem 8rem 1rem;}
   .projects-section .container{
     padding-left: 0rem;
     padding-right: 0rem;
@@ -324,15 +312,11 @@ footer {
     padding-left: 6rem;
     padding-right: 6rem;
   }
-  .card-lower-text {
-    font-size: 1em;
-  }
+  .card-lower-text {font-size: 1em;}
 } 
 @media screen and (min-width: 1400px) {
   body {font-size:11px;}
-  #profilepic {
-    max-height: 14.5rem;
-  }
+  #profilepic {max-height: 14.5rem;}
   .projects-section .container{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -340,9 +324,7 @@ footer {
 } 
 @media screen and (min-width: 1600px) {
   body {font-size:14px;}
-  .about-section h2 {
-    font-size: 0.9em;
-  }
+  .about-section h2 {font-size: 0.9em;}
   .projects-section .container{
     padding-left: 6rem;
     padding-right: 6rem;
