@@ -47,7 +47,6 @@
   max-height: 100%;
   height: auto;
 }
-
 .img-border {
   border-style: solid;
   border-radius: 5%;
@@ -284,7 +283,6 @@ footer {
 }
 
 
-
 @media screen and (min-width: 576px) {    }
 @media screen and (min-width: 768px) {    } 
 @media screen and (min-width: 992px) {
@@ -313,4 +311,4 @@ footer {
   .about-section h2 {font-size: 1.1em;}
   .projects-section .container{padding-left: 6rem; padding-right: 6rem;}
   .contact-section .card {font-size: 1rem;}
-} 
+}
