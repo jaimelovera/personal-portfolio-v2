@@ -11,7 +11,7 @@
   padding: 17px;
   margin-top: 8px;
   font-size: 20px;
-  color: #fff;
+  color: #FFF;
   transition: opacity 0.1s ease-out;
   transition: font-size 0.1s ease-out;
   transition: width 0.1s ease-out;
@@ -86,7 +86,7 @@
  }
 
 #mainNav.navbar-shrink {
-  background-color: #E3E3E3;
+  background-color: #FFF;
 }
 
 #mainNav.navbar-shrink .nav-link {
@@ -161,7 +161,7 @@
 .skills-list {
   font-size: 1.1em;
   margin: auto;
-  border-bottom:solid; 
+  border-bottom: 1px solid; 
   display: inline-block
 }
 
@@ -289,44 +289,28 @@ footer {
 @media screen and (min-width: 768px) {    } 
 @media screen and (min-width: 992px) {
   #share {top: 28%;}
-  #share a {
-    width: 50px;
-    height: 45px;
-    font-size: 25px;
-  }
-  #share a:hover {
-    opacity: 1;
-    font-size: 30px;
-    width: 60px;
-  }
+  #share a {width: 50px; height: 45px; font-size: 25px;}
+  #share a:hover {opacity: 1; font-size: 30px; width: 60px;}
   #profilepic {max-height: 13rem;}
   .projects-section {padding: 2rem 10rem 5rem;}
   .contact-section {padding: 2rem 8rem 1rem;}
-  .projects-section .container{
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
+  .projects-section .container{padding-left: 0rem; padding-right: 0rem;}
 } 
 @media screen and (min-width: 1200px) {
-  .projects-section .container{
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-  .card-lower-text {font-size: 1em;}
+  .projects-section .container{padding-left: 6rem; padding-right: 6rem;}
 } 
 @media screen and (min-width: 1400px) {
   body {font-size:11px;}
   #profilepic {max-height: 14.5rem;}
-  .projects-section .container{
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
+  .projects-section .container{padding-left: 8rem; padding-right: 8rem;}
+  .contact-section .card {font-size: 0.9rem;}
 } 
 @media screen and (min-width: 1600px) {
   body {font-size:14px;}
-  .about-section h2 {font-size: 0.9em;}
-  .projects-section .container{
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
+  #share a {width: 60px; height: 55px; font-size: 30px;}
+  #share a:hover {opacity: 1; font-size: 35px; width: 70px;}
+  #profilepic {max-height: 16.5rem;}
+  .about-section h2 {font-size: 1.1em;}
+  .projects-section .container{padding-left: 6rem; padding-right: 6rem;}
+  .contact-section .card {font-size: 1rem;}
 } 
