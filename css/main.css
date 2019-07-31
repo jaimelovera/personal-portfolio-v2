@@ -39,7 +39,7 @@
 
 #profilepic {
   max-height: 11rem;
-  border: 0.75em solid rgba(255,255,255,0.15);
+  border: 0.65em solid rgba(30,30,30,0.85);
 }
 
 .img-fluid {
@@ -52,15 +52,26 @@
   border-radius: 6px;
   border-color: #161616;
 }
-.zoom {
+.zoom-125 {
   transition: transform .2s;
   z-index: 1;
   position:relative;
 }
 @media (hover: hover) {
-    .zoom:hover {
+    .zoom-125:hover {
         border: 3px solid red;
-        transform: scale(1.5);
+        transform: scale(1.25);
+    }
+}
+.zoom-115 {
+  transition: transform .2s;
+  z-index: 1;
+  position:relative;
+}
+@media (hover: hover) {
+    .zoom-115:hover {
+        border: 3px solid red;
+        transform: scale(1.15);
     }
 }
 
@@ -132,11 +143,9 @@
 
 .btn {
   font-size: 0.8em;
-  -webkit-box-shadow: 0 0.4em 0.3em 0 rgba(95, 150, 145, 0.2) !important;
-  box-shadow: 0 0.5em 0.5em 0 rgba(95, 150, 145, 0.2) !important;
   font-family: 'Varela Round';
   text-transform: uppercase;
-  border: 0;
+  border: 5px solid black;
   border-radius: 1.5rem;
   font-weight: 500;
   background-color: #64a19d;
@@ -172,7 +181,6 @@
   font-size: 1.1em;
   margin: auto;
   border-bottom: 1px solid; 
-  text-shadow: 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000;
   display: inline-block
 }
 
@@ -180,7 +188,8 @@
   padding: 0rem 0rem 0.8rem;
   font-size: 5em;
   font-weight:650;
-  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white, 0 0 45px white;
+  color: #000;
+  text-shadow: -1px 0 #E7E7E7, 0 1px #E7E7E7, 1px 0 #E7E7E7, 0 -1px #E7E7E7;
 }
 
 .title-text-contact {
@@ -261,12 +270,6 @@
 .contact-email-link:hover {
   color: inherit;
 }
-
-.text-black-shadow {
-	/*Layered text shadows to create a stronger shadow*/
-	text-shadow: 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000, 0 0 20px #000;
-}
-
 
 body {
   background-color: #000000;
