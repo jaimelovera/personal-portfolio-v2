@@ -149,11 +149,6 @@
   background-color: #60A29B
 }
 
-.btn:focus, .btn:active {
-  background-color: #69AFA8;
-  color: #000;
-}
-
 .btn-resume-pic-size {
   height: 1.4em;
 }
@@ -169,8 +164,8 @@
 }
 
 .www-link a:hover {
-  color: #E5E5E5;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 .www-link a:focus, .www-link a:active {
@@ -181,6 +176,7 @@
 .text-gray {
   color: #B5B5B5;
 }
+
 .title-text-about {
   font-size: 4em;
   font-weight: 600;
