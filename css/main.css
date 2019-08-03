@@ -58,23 +58,14 @@
   z-index: 1;
   position:relative;
 }
-@media (hover: hover) {
-    .zoom-125:hover {
-        border: 1px solid red;
-        transform: scale(1.25);
-    }
-}
+@media (hover: hover) {.zoom-125:hover {border: 1px solid #000;transform: scale(1.25);}}
+
 .zoom-115 {
   transition: transform .2s;
   z-index: 1;
   position:relative;
 }
-@media (hover: hover) {
-    .zoom-115:hover {
-        border: 1px solid red;
-        transform: scale(1.15);
-    }
-}
+@media (hover: hover) {.zoom-115:hover {border: 1px solid #000;transform: scale(1.15);}}
 
 #mainNav {
   font-size: 1.4em;
@@ -163,7 +154,7 @@
   color: #FFF;
   text-decoration: none;
 }
-@media (hover: hover) {.www-link a:hover {color: #FFF;text-decoration: underline;}}
+@media (hover: hover) {.www-link a span:hover {color: #FFF;border-bottom: 1px solid #FFF;}}
 
 .text-gray {
   color: #B5B5B5;
