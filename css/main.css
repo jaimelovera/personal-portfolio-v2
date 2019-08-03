@@ -144,10 +144,7 @@
   background-color: #69AFA8;
   color: #000;
 }
-
-.btn:hover {
-  background-color: #60A29B
-}
+@media (hover: hover) {.btn:hover {background-color: #60A29B}}
 
 .btn-resume-pic-size {
   height: 1.4em;
@@ -162,16 +159,11 @@
   color: #FFF;
   text-decoration: none;
 }
-
 .www-link a:hover {
-  color: #FFF;
-  text-decoration: underline;
-}
-
-.www-link a:focus, .www-link a:active {
   color: #FFF;
   text-decoration: none;
 }
+@media (hover: hover) {.www-link a:hover {color: #FFF;text-decoration: underline;}}
 
 .text-gray {
   color: #B5B5B5;
@@ -292,14 +284,11 @@ a {
 }
 
 a:hover {
-  color: #60A29B;
-  text-decoration: none;
-}
-
-a:focus, a:active {
   color: #69AFA8;
   text-decoration: none;
 }
+@media (hover: hover) {a:hover {color: #60A29B;text-decoration: none;}}
+
 
 .bg-black {
   background-color: #000000 !important;
