@@ -90,23 +90,19 @@ footer {
   border-color: #161616;
 }
 
-
-
-.zoom-125 {
-  transition: transform .2s;
-  z-index: 1;
-  position:relative;
+.rotate {
+  animation: rotation 1.9s infinite linear;
 }
-@media (hover: hover) {.zoom-125:hover {border: 1px solid #000;transform: scale(1.25);}}
-
-.zoom-115 {
-  transition: transform .2s;
-  z-index: 1;
-  position:relative;
+@keyframes rotation {
+  0% {transform:rotate(6deg);}
+  50% {transform:rotate(-6deg);}
+  100% {transform:rotate(6deg);}
 }
-@media (hover: hover) {.zoom-115:hover {border: 1px solid #000;transform: scale(1.15);}}
 
-
+.saturate-zoom {
+  transition: 0.5s;
+}
+@media (hover: hover) {.saturate-zoom:hover {transform: scale(1.025);filter: saturate(150%);}
 
 #mainNav {
   font-size: 1.4em;
@@ -175,15 +171,16 @@ footer {
   font-weight: 500;
   background-color: #69AFA8;
   color: #000;
+  transition: 0.2s;
 }
-@media (hover: hover) {.btn:hover {background-color: #60A29B}}
+@media (hover: hover) {.btn:hover {background-color: #6BCFC5;transform: scale(1.1);}}
 
 .btn-resume-pic-size {
-  height: 1.4em;
+  height: 1.5em;
 }
 
 .btn-resume {
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 0.6rem 1rem;
 }
 
@@ -211,7 +208,8 @@ footer {
 .skills-list {
   font-size: 1.1em;
   margin: auto;
-  border-bottom: 1px solid; 
+  padding: 0.25rem;
+  border: 1px solid; 
   display: inline-block
 }
 
@@ -230,7 +228,7 @@ footer {
 }
 
 #about {
-  background-color: #B5B5B5;
+  background-color: #E50000;
 }
 
 .about-section {
@@ -239,10 +237,8 @@ footer {
   background-image: url("../img/about-bg.png");
   background-attachment: fixed;
   background-color: #000;
-  border-bottom: 12px solid #B5B5B5;
-    border-bottom: 12px solid #B5B5B5;
-
-  border-radius: 0px 0px 176px 0px;
+  border-bottom: 12px solid #E50000;
+  border-radius: 0px 0px 180px 0px;
 }
 
 .about-section p {
@@ -252,7 +248,7 @@ footer {
 
 .projects-section {
   padding: 2rem 0rem 5rem;
-  background-image: radial-gradient(circle,#87D5D0, #3E6965);
+  background-image: radial-gradient(circle, #E0E0E0, #C4C4C4);
   background-size: cover;
 }
 .projects-section .container{
