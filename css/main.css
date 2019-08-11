@@ -1,20 +1,57 @@
+body {
+  background-color: #000;
+  font-size: 9px;
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+  min-width:320px;
+}
+
+a {
+  color: #69AFA8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #69AFA8;
+  text-decoration: none;
+}
+@media (hover: hover) {a:hover {color: #60A29B;text-decoration: none;}}
+
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 2rem 0 1rem;
+}
+
+
 #share {
   top: 150%;
   left: 0em;
   position: fixed;
 }
 #share a {
-  width: 45px;
-  height: 55px;
+  width: 50px;
+  height: 45px;
+  font-size: 25px;
   border-radius:0px 8px 8px 0px;
   display: block;
-  padding: 17px;
+  padding: 18px;
   margin-top: 8px;
-  font-size: 20px;
   color: #FFF;
   transition: opacity 0.1s ease-out;
   transition: font-size 0.1s ease-out;
   transition: width 0.1s ease-out;
+  -moz-box-shadow:    1px 1px 1px 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  box-shadow:         1px 1px 1px 1px rgba(0,0,0,0.1);
 }
 #share i {
   position: relative;
@@ -39,7 +76,7 @@
 
 #profilepic {
   max-height: 11rem;
-  border: 0.65em solid rgba(30,30,30,0.85);
+  border: 2px solid #000;
 }
 
 .img-fluid {
@@ -52,6 +89,8 @@
   border-radius: 6px;
   border-color: #161616;
 }
+
+
 
 .zoom-125 {
   transition: transform .2s;
@@ -66,6 +105,8 @@
   position:relative;
 }
 @media (hover: hover) {.zoom-115:hover {border: 1px solid #000;transform: scale(1.15);}}
+
+
 
 #mainNav {
   font-size: 1.4em;
@@ -157,7 +198,7 @@
 @media (hover: hover) {.www-link a span:hover {color: #FFF;border-bottom: 1px solid #FFF;}}
 
 .text-gray {
-  color: #B5B5B5;
+  color: #C6C6C6;
 }
 
 .title-text-about {
@@ -188,11 +229,20 @@
   font-weight:650;
 }
 
+#about {
+  background-color: #B5B5B5;
+}
+
 .about-section {
   padding-top: 6rem;
   padding-bottom: 3rem;
   background-image: url("../img/about-bg.png");
   background-attachment: fixed;
+  background-color: #000;
+  border-bottom: 12px solid #B5B5B5;
+    border-bottom: 12px solid #B5B5B5;
+
+  border-radius: 0px 0px 176px 0px;
 }
 
 .about-section p {
@@ -234,6 +284,7 @@
 
 .contact-section {
   padding: 2rem 0rem 1rem;
+  background-color: #000;
 }
 
 .contact-section .card {
@@ -261,40 +312,6 @@
   color: inherit;
 }
 
-body {
-  background-color: #000000;
-  font-size: 9px;
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
-  min-width:320px;
-}
-
-a {
-  color: #69AFA8;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #69AFA8;
-  text-decoration: none;
-}
-@media (hover: hover) {a:hover {color: #60A29B;text-decoration: none;}}
-
-
-.bg-black {
-  background-color: #000000 !important;
-}
-
-.text-primary {
-  color: #64a19d !important;
-}
-
-footer {
-  font-size: 0.8rem;
-  padding: 2rem 0 1rem;
-}
-
-
 
 @media screen and (max-width: 375px) {
   .projects-section .www-link {font-size: 0.75em;}
@@ -306,29 +323,53 @@ footer {
   .contact-section .card {font-size: 0.77rem;}
 } 
 @media screen and (min-width: 992px) {
-  #share {top: 28%;}
-  #share a {width: 50px; height: 45px; font-size: 25px;}
-  #share a:hover {opacity: 1; font-size: 30px; width: 60px;}
+  #share {top: 75%;}
+  #share a {
+    width: 50px; 
+    height: 45px; 
+    font-size: 25px;
+  }
+  #share a:hover {
+    width: 60px;
+  }
   #profilepic {max-height: 13rem;}
   .projects-section {padding: 2rem 10rem 5rem;}
   .contact-section {padding: 2rem 8rem 1rem;}
-  .projects-section .container{padding-left: 0rem; padding-right: 0rem;}
+  .projects-section .container {
+    padding-left: 0rem; 
+    padding-right: 0rem;
+  }
 } 
 @media screen and (min-width: 1200px) {
-  .projects-section .container{padding-left: 6rem; padding-right: 6rem;}
+  .projects-section .container {
+    padding-left: 6rem; 
+    padding-right: 6rem;
+  }
 } 
 @media screen and (min-width: 1400px) {
   body {font-size:11px;}
   #profilepic {max-height: 14.5rem;}
-  .projects-section .container{padding-left: 8rem; padding-right: 8rem;}
+  .projects-section .container {
+    padding-left: 8rem; 
+    padding-right: 8rem;
+  }
   .contact-section .card {font-size: 0.9rem;}
 } 
 @media screen and (min-width: 1600px) {
   body {font-size:14px;}
-  #share a {width: 60px; height: 55px; font-size: 30px;}
-  #share a:hover {opacity: 1; font-size: 35px; width: 70px;}
+  #share a {
+    width: 60px; 
+    height: 55px; 
+    font-size: 30px;
+  }
+  #share a:hover {
+    width: 70px;
+  }
   #profilepic {max-height: 16.5rem;}
   .about-section h2 {font-size: 1.1em;}
-  .projects-section .container{padding-left: 6rem; padding-right: 6rem;}
+  .projects-section .container {
+    padding-left: 6rem; 
+    padding-right: 6rem;
+  }
   .contact-section .card {font-size: 1rem;}
 }
