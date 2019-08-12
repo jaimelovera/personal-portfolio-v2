@@ -50,6 +50,16 @@ body {
      -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
      box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
 }
+ @media (hover: hover) {
+     #share .github:hover {
+        background-color: #6F6F6F;
+    }
+    #share .linkedin:hover {
+        background-color: #0087CD;
+    }
+}
+
+
  #share i {
      position: relative;
      left: 50%;
@@ -59,16 +69,16 @@ body {
      transform: translateX(-50%) translatey(-50%);
 }
  .github {
-     background: #5E5E5E;
+     background-color: #5E5E5E;
 }
  .linkedin {
-     background: #0077b5;
+     background-color: #0077b5;
 }
  .github-footer {
-     font-size: 1.25rem;
+     font-size: 0.8rem;
 }
  .linkedin-footer {
-     font-size: 1.25rem;
+     font-size: 0.8rem;
 }
  #profilepic {
      max-height: 11rem;
@@ -212,15 +222,15 @@ body {
      font-weight:700;
 }
  #about {
-     background-color: #E50000;
+     background-color: #69AFA8;
 }
  .about-section {
      padding-top: 6rem;
      padding-bottom: 3rem;
      background-image: url("../img/about-bg.png");
      background-attachment: fixed;
-     background-color: #000;
-     border-bottom: 12px solid #E50000;
+     background-color: #69AFA8;
+     border-bottom: 12px solid #69AFA8;
      border-radius: 0 0 180px 0;
 }
  .about-section p {
@@ -229,7 +239,7 @@ body {
 }
  .projects-section {
      padding: 2rem 0 5rem;
-     background-image: radial-gradient(circle, #E0E0E0, #C4C4C4);
+     background-image: linear-gradient(180deg, #69AFA8 0%, #C6C6C6 6%, #FFF 80%);
      background-size: cover;
 }
  .projects-section .container{
