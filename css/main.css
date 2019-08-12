@@ -47,15 +47,6 @@ body {
      transition: font-size 0.1s ease-out;
      transition: width 0.1s ease-out;
 }
- @media (hover: hover) {
-     #share .github:hover {
-        background-color: #6F6F6F;
-    }
-     #share .linkedin:hover {
-        background-color: #0087CD;
-    }
-}
-
 
  #share i {
      position: relative;
@@ -69,7 +60,7 @@ body {
      background-color: #5E5E5E;
 }
  .linkedin {
-     background-color: #0077b5;
+     background-color: #0077B5;
 }
  .github-footer {
      font-size: 0.8rem;
@@ -131,7 +122,7 @@ body {
  #mainNav .nav-link.active {
      color: #FFF;
      padding: 0.5rem 1.25rem 0.15rem;
-     border-bottom: 0.3rem solid #64a19d;
+     border-bottom: 0.3rem solid #64A19D;
 }
  #mainNav .nav-link:hover {
      color: #FFF;
@@ -176,19 +167,19 @@ body {
      padding: 0.6rem 1rem;
 }
  .www-link a {
-     color: #FFF;
+     color: #69AFA8;
      text-decoration: none;
 }
  .www-link a:hover {
-     color: #FFF;
+     color: #69AFA8;
      text-decoration: none;
 }
  @media (hover: hover) {
     .www-link a span:hover {
-        color: #FFF;
-        border-bottom: 1px solid #FFF;
+        border-bottom: 1px solid #69AFA8;
     }
 }
+
  .text-gray {
      color: #C6C6C6;
 }
@@ -201,9 +192,10 @@ body {
  .skills-list {
      font-size: 1.1em;
      margin: auto;
-     padding: 0.4rem;
+     padding: 0.2rem;
      border: 1px solid;
      display: inline-block;
+     color: #7A7A7A;
 }
  .title-text-projects {
      padding: 0 0 0.8rem;
@@ -213,7 +205,7 @@ body {
      text-shadow: -1px 0 #E7E7E7, 0 1px #E7E7E7, 1px 0 #E7E7E7, 0 -1px #E7E7E7;
 }
  .title-text-contact {
-     padding: 0 0 0.8rem;
+     padding: 2rem 0 3rem 0;
      font-size: 5em;
      font-weight:700;
 }
