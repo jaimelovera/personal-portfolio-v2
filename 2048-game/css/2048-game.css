@@ -1,14 +1,17 @@
+.container {
+	padding-top: 4rem;
+}
+
 #body {
   background-image: radial-gradient(circle,#87D5D0, #3E6965);
-  background-size: cover;
-  font-size: 1rem;
+  font-size: 1.15em;
 }
 canvas {
-  background: #EDEDED;
-display:flex
-  margin: 0 auto;
-  border-radius: 10px;
-  touch-action: none;
+	background: #EDEDED;
+	display:flex;
+	margin: 0 auto;
+	border-radius: 10px;
+	touch-action: none;
 }
 .img-fluid {
 	min-height: 220px;

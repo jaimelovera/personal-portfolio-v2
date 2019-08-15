@@ -27,21 +27,21 @@
 
   <section>
     <div class="container">
-      <div class="row my-5 projects-section-bg">
-        <div class="col-lg text-center my-auto">
+      <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
+        <div class="col-lg-6 text-center align-self-center">
           <canvas id="myCanvas" class="img-fluid" width="370" height="370"></canvas>
         </div>
-        <div class="col-lg">
-	      <div class="bg-black text-center h-100 project">
-	        <div class="d-flex h-100">
-	          <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-white">2048 Game</h4>
-	            <p class="mb-0 text-white-50">Combine tiles and reach 2048 to win.<br/>Use arrow keys or swipe to move.<br/>R to restart or use button.</p>
-              <hr class="mb-2 ml-0">
-              <button class="btn js-scroll-trigger" onclick="reset()">Restart</button>
-	          </div>
-	        </div>
-	      </div>
+        <div class="col-lg-6 pl-lg-4 pt-4">
+          <div class="text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto py-0 text-center">
+                <h4 class="text-white"><span class="bg-black">2048 Game</span></h4>
+                <p class="mb-0 text-white"><span class="bg-black">Combine tiles and reach 2048 to win.<br/>Use arrow keys or swipe to move.<br/>R to restart or use button.</span></p>
+                <hr class="mb-2 mt-4 ml-0">
+                <button class="btn js-scroll-trigger" onclick="var restart = new Audio('mp3/restart.mp3');restart.play();reset()">Restart</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
