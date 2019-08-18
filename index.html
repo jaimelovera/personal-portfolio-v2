@@ -237,10 +237,11 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/main.js"></script>
 
+    <!-- Loader -->
     <script>
-      $(document).ready(function(){
-        $('.loader').css('visibility', 'hidden');
-      });
+    $(window).on('load', function() {
+		$('.loader').css('visibility', 'hidden');
+	});
     </script>
 
   </body>
