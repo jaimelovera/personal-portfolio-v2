@@ -105,6 +105,7 @@ footer {
 }
 
 #profilepic {
+  opacity: 0;
   max-height: 10rem;
   border: 1px solid transparent;
 }
@@ -140,11 +141,15 @@ footer {
 
 .saturate-zoom {
   transition: 0.5s;
+  -webkit-backface-visibility: hidden; 
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
 }
 
 @media (hover: hover) {
   .saturate-zoom:hover {
-    transform: scale(1.025);
+    transform: scale(1.015);
     filter: saturate(150%);
   }
 }

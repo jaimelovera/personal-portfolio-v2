@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
+    <!-- Image Fade In Once Loaded (NOTE:image must start with opacity 0) -->
+    <script> 
+      function fadeImageIn(obj) {
+          obj.style.opacity = '1';
+      }
+    </script>
+
     <link rel="icon" href="img/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,7 +62,7 @@
 	          <div class="col-lg-2">
 	          </div>
 	          <div class="col-lg-4 my-auto mx-auto">
-	            <img id="profilepic" class="img-fluid mx-auto rotate" src="img/profile-picture.png" alt="My Profile Photo"/>
+	            <img id="profilepic" class="img-fluid mx-auto rotate" src="img/profile-picture.png" onload="fadeImageIn(this);" alt="My Profile Photo"/>
 	          </div>
 	          <div class="col-lg-4">
 	            <div class="row pt-2">
@@ -239,9 +247,9 @@
 
     <!-- Loader -->
     <script>
-    $(window).on('load', function() {
-		$('.loader').css('visibility', 'hidden');
-	});
+      $(window).on('load', function() {
+		    $('.loader').css('visibility', 'hidden');
+      });
     </script>
 
   </body>
