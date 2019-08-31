@@ -139,18 +139,13 @@ footer {
   }
 }
 
-.saturate-zoom {
+.saturate-hover {
   transition: 0.5s;
-  -webkit-backface-visibility: hidden; 
-  -ms-transform: translateZ(0); /* IE 9 */
-  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
-  transform: translateZ(0);
 }
 
 @media (hover: hover) {
-  .saturate-zoom:hover {
-    transform: scale(1.015);
-    filter: saturate(150%);
+  .saturate-hover:hover {
+    filter: saturate(130%);
   }
 }
 
