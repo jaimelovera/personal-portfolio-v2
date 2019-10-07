@@ -139,16 +139,6 @@ footer {
   }
 }
 
-.saturate-hover {
-  transition: 0.5s;
-}
-
-@media (hover: hover) {
-  .saturate-hover:hover {
-    filter: saturate(130%);
-  }
-}
-
 #mainNav {
   font-size: 1.4em;
   padding-top: 0;
@@ -225,20 +215,8 @@ footer {
   padding: 0.6rem 1rem;
 }
 
-.www-link a {
+.www-link {
   color: #69AFA8;
-  text-decoration: none;
-}
-
-.www-link a:hover {
-  color: #69AFA8;
-  text-decoration: none;
-}
-
-@media (hover: hover) {
-  .www-link a span:hover {
-    border-bottom: 1px solid #69AFA8;
-  }
 }
 
 .text-gray {
