@@ -52,19 +52,17 @@
       </div>
     </nav>
 
-    <div id ="side-bar" class="bg-black-stars"></div>
+    <div id ="side-bar" class="bg-black"></div>
 
     <!-- About Section -->
     <section id="about">
-      <div class="about-section text-center bg-black-stars">
+      <div class="about-section text-center bg-black">
 	      <div class="container">
 	        <div class="row">
-	          <div class="col-lg-2">
-	          </div>
 	          <div class="col-lg-4 my-auto mx-auto">
 	            <img id="profilepic" class="img-fluid mx-auto rotate" src="img/profile-picture.png" onload="fadeImageIn(this);" alt="My Profile Photo"/>
 	          </div>
-	          <div class="col-lg-4">
+	          <div class="col-lg-8">
 	            <div class="row pt-2">
 	              <div class="col-lg">
 	                <h1 class="title-text-about text-center"><span class="bg-black">Jaime Lovera</span></h1>
@@ -72,12 +70,12 @@
 	            </div>
 	            <div class="row">
 	              <div class="col-lg">
-	                <h2 class="text-gray skills-list"><span class="bg-black">Python • MySQL • JavaScript • HTML • CSS</span></h2>
+	                <h2 class="skills-list text-gray"><span class="bg-black">Python • Django • SQL • JS • HTML • CSS • React</span></h2>
 	              </div>
 	            </div>
-	            <div class="row py-4">
+	            <div class="row py-2">
 	              <div class="col-lg">
-	                <p class="text-white"><span class="bg-black">Hello, welcome to my online portfolio. I enjoy meeting like-minded people. Feel free to contact me.</span></p>
+	                <p class="about-summary text-white"><span class="bg-black">Hello! Welcome to my online portfolio, a place where I will share my personal projects. I enjoy meeting like-minded people. Feel free to contact me.</span></p>
 	              </div>
 	            </div>
 	            <div class="row">
@@ -86,142 +84,138 @@
 	              </div>
 	            </div>
 	          </div>
-	          <div class="col-lg-2">
-	          </div>
 	        </div>
 	      </div>
 	      <!-- Social Media Sticky Buttons -->
 	      <div id="share">
-	      <!-- github share button-->
-	      <a class="github" href="https://github.com/jaimelovera" target="blank"><i class="fab fa-github"></i></a>
-	      <!-- linkedin share button -->
-	      <a class="linkedin" href="https://www.linkedin.com/in/jaimelovera" target="blank"><i class="fab fa-linkedin"></i></a>
+  	      <!-- github share button-->
+  	      <a class="github" href="https://github.com/jaimelovera" target="blank"><i class="fab fa-github"></i></a>
+  	      <!-- linkedin share button -->
+  	      <a class="linkedin" href="https://www.linkedin.com/in/jaimelovera" target="blank"><i class="fab fa-linkedin"></i></a>
 	      </div>
       </div>
     </section>
 
+
+
+
     <!-- Projects Section -->
-    <div class="bg-black-stars">
     <section id="projects" class="projects-section">
-      <h1 class="title-text-projects text-center mb-2 mt-4">Projects</h1>
+      <h1 class="title-text-projects text-center mb-3 mt-3">Projects</h1>
       <div class="container">
 
-        <!-- PROJECT WITH WORDS ON THE LEFT -->
         <!-- getmoneystaybummy.com -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
-          <div class="col-lg-6 text-center align-self-center">
+        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+          <div class="col-lg-5 text-center align-self-center">
             <img class="img-fluid img-border" src="img/getmoneystaybummy.png" alt="Screenshot of www.getmoneystaybummy.com">
           </div>
-          <div class="col-lg-6 order-lg-first pr-lg-4 pt-4">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto py-0 text-center">
-                  <h4 class="text-white"><span class="bg-black">Finance Blog</span></h4>
-                  <p class="bg-black www-link">www.getmoneystaybummy.com</p>
-                  <p class="mb-0 text-white"><span class="bg-black">A Django web application I developed/designed to encourage people to save and invest. Responsive web design intended for both mobile and desktop viewing. Deployed on my own domain with SSL Certificate. Administrator login designed to facilitate adding, editing, publishing, and deleting content. Developed using Django, Python, JavaScript, jQuery, HTML, CSS, and Bootstrap.</span></p>
-                  <hr class="mb-2 mt-4 mr-0">
-                  <a class="btn js-scroll-trigger" href="https://www.getmoneystaybummy.com/" target="_blank">Visit</a>
-                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/getmoneystaybummy-com" target="_blank">Code</a>
+          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
+              <div class="d-flex">
+                <div class="project-text">
+                  <h4 class="text-white"><span class="bg-black">Personal Finance Website</span></h4>
+                  <p class="text-white"><span class="bg-black">A Django web application I developed to encourage people to save and invest. Responsive web design with a content management system.</span></p>
+                  <p class="mb-0 project-utilized-list text-gray"><span class="bg-black">Django | Python | JavaScript | jQuery | Bootstrap | HTML | CSS</span></p>
+                  <hr class="mb-2 mt-2">
+                  <a class="btn" href="https://www.getmoneystaybummy.com/" target="_blank">Visit</a>
+                  <a class="btn" href="https://github.com/jaimelovera/getmoneystaybummy-com" target="_blank">Code</a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        <!-- PROJECT WITH WORDS ON THE RIGHT -->
+
         <!-- react google calendar -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
-          <div class="col-lg-6 text-center align-self-center">
+        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+          <div class="col-lg-5 text-center align-self-center">
             <img class="img-fluid img-border" src="img/react-google-calendar.png" alt="Screenshot of my Google Calendar React App">
           </div>
-          <div class="col-lg-6 pl-lg-4 pt-4">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto py-0 text-center">
-                  <h4 class="text-white"><span class="bg-black">Google Calendar</h4>
-                  <p class="mb-0 text-white"><span class="bg-black">A React web application that recreates the Google Calendar interface, along with many of its core features. This app has a weekly and monthly view that correctly populates dates and highlights the current day and time. Developed using React, JavaScript, HTML, CSS, CSS Grid, CSS Flexbox.</span></p>
-                  <hr class="mb-2 mt-4 ml-0">
-                  <a class="btn js-scroll-trigger" href="https://pedantic-hopper-e10753.netlify.com/" target="_blank">Visit</a>
-                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/react-app-calendar" target="_blank">Code</a>
+          <div class="col-lg-7 text-center pt-3">  <!-- Remove order-lg-first for image on left -->
+              <div class="d-flex">
+                <div class="project-text">
+                  <h4 class="text-white"><span class="bg-black">Google Calendar</span></h4>
+                  <p class="text-white"><span class="bg-black">A React web application that recreates the Google Calendar interface, along with many of its core features.</span></p>
+                  <p class="mb-0 project-utilized-list text-gray"><span class="bg-black">React.js | JavaScript | HTML | CSS | CSS Grid | CSS Flexbox</span></p>
+                  <hr class="mb-2 mt-2">
+                  <a class="btn" href="https://pedantic-hopper-e10753.netlify.com/" target="_blank">Visit</a>
+                  <a class="btn" href="https://github.com/jaimelovera/react-app-calendar" target="_blank">Code</a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        <!-- PROJECT WITH WORDS ON THE LEFT -->
+
+        <!-- react investment calculator -->
+        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+          <div class="col-lg-5 text-center align-self-center">
+            <img class="img-fluid img-border" src="img/investment-loan-calculator.png" alt="Screenshot of my Investment Loan Calculator React App">
+          </div>
+          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
+              <div class="d-flex">
+                <div class="project-text">
+                  <h4 class="text-white"><span class="bg-black">Investment & Debt Payoff Calculator</span></h4>
+                  <p class="text-white"><span class="bg-black">A interactive data visualization tool that estimates the growth of an investment or loan over a time horizon. A standalone React app embedded into my finance website project.</span></p>
+                  <p class="mb-0 project-utilized-list text-gray"><span class="bg-black">React.js | Recharts.js | JavaScript | HTML | CSS</span></p>
+                  <hr class="mb-2 mt-2">
+                  <a class="btn" href="https://www.getmoneystaybummy.com/investment-loan-calculators" target="_blank">Visit</a>
+                  <a class="btn" href="https://github.com/jaimelovera/react-app-money-visualizer" target="_blank">Code</a>
+                </div>
+              </div>
+          </div>
+        </div>
+
         <!-- 2048 game -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
-          <div class="col-lg-6 text-center align-self-center">
+        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+          <div class="col-lg-5 text-center align-self-center">
             <img class="img-fluid img-border saturate-hover" src="img/2048game.png" alt="Screenshot of my 2048 Game Implementation">
           </div>
-          <div class="col-lg-6 order-lg-first pr-lg-4 pt-4">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto py-0 text-center">
+          <div class="col-lg-7 text-center pt-3">  <!-- Remove order-lg-first for image on left -->
+              <div class="d-flex">
+                <div class="project-text">
                   <h4 class="text-white"><span class="bg-black">2048 Game</span></h4>
-                  <p class="mb-0 text-white"><span class="bg-black">My JavaScript implementation of the popular <a href="https://play2048.co/" target="_blank">2048 Game</a>. Fully functional with the ability to play via keyboard inputs, or touch screen inputs. Visit my demo to give it a try!</span> <span style="color:#FFF;">&#127918;</span></p>
-                  <hr class="mb-2 mt-4 mr-0">
-                  <a class="btn js-scroll-trigger" href="2048-game/index.html" target="_blank">Visit</a>
-                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/2048-game-js" target="_blank">Code</a>
+                  <p class="text-white"><span class="bg-black">My JavaScript implementation of the popular <a href="https://play2048.co/" target="_blank">2048 Game</a>. Fully functional with ability to play via various device inputs.</span> <span style="color:#FFF;">&#127918;</span></p>
+                  <p class="mb-0 project-utilized-list text-gray"><span class="bg-black">JavaScript | HTML | CSS</span></p>
+                  <hr class="mb-2 mt-2">
+                  <a class="btn" href="2048-game/index.html" target="_blank">Visit</a>
+                  <a class="btn" href="https://github.com/jaimelovera/2048-game-js" target="_blank">Code</a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        <!-- PROJECT WITH WORDS ON THE RIGHT -->
-        <!-- calorie tracker app -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
-          <div class="col-lg-6 text-center align-self-center">
-            <img class="img-fluid img-border" src="img/fitness-calorie-tracker.png" alt="Screenshot of my Calorie Tracker Application">
-          </div>
-          <div class="col-lg-6 pl-lg-4 pt-4">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto py-0 text-center">
-                  <h4 class="text-white"><span class="bg-black">Calorie Tracker</span></h4>
-                  <p class="mb-0 text-white"><span class="bg-black">Implemented in Java, with Graphical User Interface using JavaFX. Lets users track their calorie intake and generate a log. Compiled into a executable .jar file.</span></p>
-                  <hr class="mb-2 mt-4 ml-0">
-                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/fitness-calorie-tracker" target="_blank">Code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- PROJECT WITH WORDS ON THE LEFT -->
+
         <!-- jaimelovera.com -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 projects-border bg-black-stars">
-          <div class="col-lg-6 text-center align-self-center">
+        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+          <div class="col-lg-5 text-center align-self-center">
             <img class="img-fluid" src="img/this-website.png" alt="Screenshot of www.jaimelovera.com">
           </div>
-          <div class="col-lg-6 order-lg-first pr-lg-4 pt-4">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto py-0 text-center">
+          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
+              <div class="d-flex">
+                <div class="project-text">
                   <h4 class="text-white"><span class="bg-black">My Online Portfolio</span></h4>
-                  <p class="bg-black www-link">www.jaimelovera.com</p>
-                  <p class="mb-0 text-white"><span class="bg-black">This website has been through many iterations, and is continuously being updated. I developed it to portray my projects and to have a quick link for more information about myself. Responsive web design. Developed using HTML, JavaScript, jQuery, CSS, and a lot of Bootstrap.</span> <span style="color:#FFF;">&#128578;</span></p>
-                  <hr class="mb-2 mt-4 mr-0">
-				  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/jaimelovera-com" target="_blank">Code</a>
+                  <p class="text-white"><span class="bg-black">A place to share my projects and more information about myself. Responsive web design.</span> <span style="color:#FFF;">&#128578;</span></p>
+                  <p class="mb-0 project-utilized-list text-gray"><span class="bg-black">HTML | CSS | Bootstrap | JavaScript | jQuery</span></p>
+                  <hr class="mb-2 mt-2">
+                  <a class="btn" href="https://www.jaimelovera.com/" target="_blank">Visit</a>
+                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/jaimelovera-com" target="_blank">Code</a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
 
       </div>
     </section>
-    </div>
+
+
+
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section bg-black-stars">
+    <section id="contact" class="contact-section bg-black">
       <h1 class="title-text-contact text-white text-center mb-3 mt-4"><span class="bg-black">Contact</span></h1>
       <div class="container">
-        <div class="row px-4">
+        <div class="row px-5">
           <div class="col-md-4 my-3">
             <div class="card h-100">
               <div class="card-body text-center">
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0"><Strong>Address</Strong></h4>
-                <hr class="my-3">
+                <hr class="my-2">
                 <div class="medium text-black-50"><Strong>San Diego, CA</Strong></div>
               </div>
             </div>
@@ -231,7 +225,7 @@
               <div class="card-body text-center">
                 <i class="fas fa-envelope text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0"><Strong>Email</Strong></h4>
-                <hr class="my-3">
+                <hr class="my-2">
                 <div class="medium text-black-50"><a class="contact-email-link" href="mailto:getmoneystaybummy@gmail.com"><Strong>lovera.jaime@gmail.com</Strong></a></div>
               </div>
             </div>
@@ -241,7 +235,7 @@
               <div class="card-body text-center">
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0"><Strong>Phone</Strong></h4>
-                <hr class="my-3">
+                <hr class="my-2">
                 <div class="medium text-black-50"><Strong>(909) 581-5578</Strong></div>
               </div>
             </div>
@@ -252,15 +246,15 @@
 
 
     <!-- Footer -->
-    <footer class="bg-black-stars text-white-50">
+    <footer class="bg-black text-white-50">
       <div class="text-center pb-1">
         <!-- github share button-->
         <a class="github-footer" href="https://github.com/jaimelovera" target="blank"><i class="fab fa-github fa-2x mx-2"></i></a>
         <!-- linkedin share button -->
         <a class="linkedin-footer" href="https://www.linkedin.com/in/jaimelovera" target="blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
       </div>
-      <div class="container text-right">
-        <p><span class="bg-black">&copy; 2019 jaimelovera.com</span></p>
+      <div class="container text-right pt-4">
+        <p><span class="bg-black">&copy; 2020 <a href="https://www.jaimelovera.com/">Jaime Lovera</a>. All rights reserved.</span></p>
       </div>
 
     </footer>
