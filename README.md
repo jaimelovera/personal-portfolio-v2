@@ -1,6 +1,6 @@
-# Online Portfolio Version 2
+# Online Portfolio - Version 2
 
-> My online portfolio to share my projects and provide more information about me.
+> My online portfolio to share my projects and provide more information about myself.
 
 ## Visit My Hosted Site!
 https://www.jaimelovera.com/
