@@ -6,7 +6,9 @@
 https://www.jaimelovera.com/
 
 ## Motivation
-I wanted a place to share all of my personal projects and to provide contact information. In the future I plan to redesign this website using React and a database to make this easier to maintain and update.
+I wanted a place to share all of my personal projects and to provide contact information.
+
+In the future I plan to redesign this website using React and a database to make this easier to maintain and update. And maybe add a blog!
 
 ## App Info
 
