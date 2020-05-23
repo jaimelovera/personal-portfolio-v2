@@ -6,31 +6,31 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: #FFF url("../img/loading.gif") no-repeat 50% 25%;
+  background: #fff url("../img/loading.gif") no-repeat 50% 25%;
   background-attachment: fixed;
 }
 
 body {
   background-color: #000;
-  font-size: 10px;
-  font-family: 'Nunito';
+  font-size: 11px;
+  font-family: "Nunito";
   letter-spacing: 0.0625em;
   min-width: 320px;
 }
 
 a {
-  color: #69AFA8;
+  color: #69afa8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #69AFA8;
+  color: #69afa8;
   text-decoration: none;
 }
 
 @media (hover: hover) {
   a:hover {
-    color: #60A29B;
+    color: #60a29b;
     text-decoration: none;
   }
 }
@@ -46,7 +46,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #64A19D !important;
+  color: #64a19d !important;
 }
 
 footer {
@@ -55,9 +55,9 @@ footer {
 }
 
 #share {
+  position: fixed;
   top: 150%;
   left: 0;
-  position: fixed;
 }
 
 #share a {
@@ -67,7 +67,7 @@ footer {
   display: block;
   padding: 18px;
   margin: 8px 0 8px;
-  color: #FFF;
+  color: #fff;
   transition: opacity 0.1s ease-out;
   transition: font-size 0.1s ease-out;
   transition: width 0.1s ease-out;
@@ -83,11 +83,11 @@ footer {
 }
 
 .github {
-  background-color: #5E5E5E;
+  background-color: #5e5e5e;
 }
 
 .linkedin {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 .github-footer {
@@ -99,24 +99,14 @@ footer {
 }
 
 #profilepic {
-  opacity: 0;
-  max-height: 10rem;
+  padding-top: 2rem;
+  max-height: 9rem;
   border: 1px solid transparent;
-}
-
-.img-fluid {
-  max-width: 80%;
-  max-height: 80%;
-  height: auto;
 }
 
 .img-border {
   border: 1px solid #000;
   border-radius: 8px;
-}
-
-.rotate {
-  animation: rotation 4s infinite linear;
 }
 
 @keyframes rotation {
@@ -148,54 +138,54 @@ footer {
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   padding: 0.5rem 1.25rem 0.15rem;
-  color: #B5B5B5;
+  color: #b5b5b5;
 }
 
 #mainNav .nav-link.active {
-  color: #FFF;
+  color: #fff;
   padding: 0.5rem 1.25rem 0.15rem;
-  border-bottom: 0.3rem solid #64A19D;
+  border-bottom: 0.3rem solid #64a19d;
 }
 
 #mainNav .nav-link:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 #mainNav.navbar-shrink {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 #mainNav.navbar-shrink .nav-link {
-  background-color: #FFF;
+  background-color: #fff;
   color: #000;
   padding: 0.5rem 1.25rem 0.15rem;
   border-bottom: 0.3em solid transparent;
 }
 
 #mainNav.navbar-shrink .nav-link:hover {
-  color: #64A19D;
+  color: #64a19d;
 }
 
 #mainNav.navbar-shrink .nav-link.active {
-  color: #64A19D;
-  border-bottom: 0.3rem solid #64A19D;
+  color: #64a19d;
+  border-bottom: 0.3rem solid #64a19d;
 }
 
 .btn {
   font-size: 0.8em;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   text-transform: uppercase;
   border: 5px solid black;
   border-radius: 1.5rem;
   font-weight: 500;
-  background-color: #69AFA8;
+  background-color: #69afa8;
   color: #000;
   transition: 0.2s;
 }
 
 @media (hover: hover) {
   .btn:hover {
-    background-color: #6BCFC5;
+    background-color: #6bcfc5;
     transform: scale(1.025);
   }
 }
@@ -205,25 +195,26 @@ footer {
 }
 
 .btn-resume {
-  font-size: 1em;
+  font-size: 1.15em;
   padding: 0.35rem 0.5rem;
+  margin: 0.75rem;
 }
 
 .text-gray {
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
 .title-text-about {
-  font-size: 5em;
+  font-size: 4.5em;
   font-weight: 600;
   margin-bottom: 0;
-  color: #FFF;
+  color: #fff;
 }
 
 .skills-list {
-  font-size: 1.1em;
-  margin: auto;
-  padding: 0.2rem;
+  font-size: 1em;
+  margin: 1rem 0;
+  padding: 0.25rem;
   border: 1px solid;
   display: inline-block;
 }
@@ -242,13 +233,13 @@ footer {
 }
 
 #about {
-  background-image: linear-gradient(to right, #D2D2D2, #DCDCDC, #D2D2D2);
+  background-image: linear-gradient(to right, #d2d2d2, #dcdcdc, #d2d2d2);
 }
 
 .about-section {
   padding-top: 4rem;
   padding-bottom: 2rem;
-  background-color: #69AFA8;
+  background-color: #69afa8;
   border-radius: 0 0 120px 0;
 }
 
@@ -258,12 +249,13 @@ footer {
 }
 
 .about-summary {
-  padding: 0 1rem;
+  text-align: justify;
+  padding: 0.75rem 0.25rem;
 }
 
 .projects-section {
   padding: 2rem 0 5rem;
-  background-image: linear-gradient(to right, #D2D2D2, #DCDCDC, #D2D2D2);
+  background-image: linear-gradient(to right, #d2d2d2, #dcdcdc, #d2d2d2);
   border-radius: 0 0 120px 0;
 }
 
@@ -278,7 +270,8 @@ footer {
 }
 
 .project-text h4 {
-  font-size: 1.4em;
+  font-size: 1.75em;
+  padding-bottom: 0.25rem;
 }
 
 .projects-section .project-text {
@@ -300,18 +293,18 @@ footer {
 .contact-section .card {
   font-size: 1.25em;
   border: 0;
-  border-bottom: 0.30rem solid #64a19d;
-  background-color: #FFF;
+  border-bottom: 0.3rem solid #64a19d;
+  background-color: #fff;
 }
 
 .contact-section .card h4 {
   font-size: 1em;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   text-transform: uppercase;
 }
 
 .contact-section .card hr {
-  border-color: #64A19D;
+  border-color: #64a19d;
   border-width: 0.25em;
   width: 3em;
 }
@@ -329,7 +322,7 @@ footer {
 
 @media screen and (min-width: 576px) {
   body {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -337,8 +330,13 @@ footer {
   .contact-section .card {
     font-size: 1em;
   }
+
   .about-summary {
-    padding:  0 5.3rem;
+    padding: 0 1rem;
+  }
+
+  #profilepic {
+    max-height: 12rem;
   }
 }
 
@@ -363,7 +361,7 @@ footer {
   }
 
   #profilepic {
-    max-height: 9rem;
+    max-height: 16rem;
   }
 
   .projects-section {
@@ -379,6 +377,7 @@ footer {
   .contact-section .card {
     font-size: 1.25em;
   }
+
   .projects-section .container {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -387,17 +386,13 @@ footer {
 
 @media screen and (min-width: 1400px) {
   body {
-    font-size: 12px;
-  }
-
-  #profilepic {
-    max-height: 11rem;
+    font-size: 14px;
   }
 }
 
 @media screen and (min-width: 1600px) {
   #profilepic {
-    max-height: 13rem;
+    max-height: 17rem;
   }
 
   .about-section h2 {

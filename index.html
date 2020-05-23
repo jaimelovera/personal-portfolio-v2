@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
-    
-    <!-- Image Fade In Once Loaded (NOTE:image must start with opacity 0) -->
-    <script> 
-      function fadeImageIn(obj) {
-          obj.style.opacity = '1';
-      }
-    </script>
+    <link rel="icon" href="img/favicon.png" />
+    <meta charset="UTF-8" />
 
-    <link rel="icon" href="img/favicon.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Jaime Lovera's Personal Website">
-    <meta name="author" content="Jaime Lovera">
     <title>Jaime Lovera</title>
-    <meta property="og:image" content="https://www.jaimelovera.com/img/this-website.png" />
-    <meta property="og:image:width" content="1188" />
-    <meta property="og:image:height" content="771" />
-    <meta property="og:title" content="Jaime Lovera's Personal Website" />
-    <meta property="og:description" content="A place to share my projects and information about myself." />
-    <meta property="og:url" content="https://www.jaimelovera.com/" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Jaime Lovera's Personal Website" />
+    <meta name="author" content="Jaime Lovera" />
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Laila"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- styles-->
+    <link href="css/main.css" rel="stylesheet" />
   </head>
 
   <body id="page-top">
-
     <div class="loader"></div>
 
     <!-- Navigation -->
@@ -48,7 +47,9 @@
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -58,171 +59,381 @@
       </div>
     </nav>
 
-    <div id ="side-bar" class="bg-black"></div>
+    <div id="side-bar" class="bg-black"></div>
 
     <!-- About Section -->
     <section id="about">
       <div class="about-section text-center bg-black">
-	      <div class="container">
-	        <div class="row">
-	          <div class="col-lg-4 my-auto mx-auto">
-	            <img id="profilepic" class="img-fluid mx-auto rotate" src="img/profile-picture.png" onload="fadeImageIn(this);" alt="My Profile Photo"/>
-	          </div>
-	          <div class="col-lg-8">
-	            <div class="row pt-2">
-	              <div class="col-lg">
-	                <h1 class="title-text-about text-center">Jaime Lovera</h1>
-	              </div>
-	            </div>
-	            <div class="row">
-	              <div class="col-lg">
-	                <h2 class="skills-list text-gray">Python • Django • SQL • JavaScript • React • HTML • CSS</h2>
-	              </div>
-	            </div>
-	            <div class="row py-2">
-	              <div class="col-lg">
-	                <p class="about-summary text-white">Hello! Welcome to my online portfolio, a place where I will share my personal projects. I enjoy meeting like-minded people. Feel free to contact me.</p>
-	              </div>
-	            </div>
-	            <div class="row">
-	              <div class="col-lg">
-	                <a class="btn btn-resume js-scroll-trigger" href="pdf/jaimelovera-resume.pdf" target="_blank"><img class="btn-resume-pic-size" src="img/resumeicon.png" alt="Resume Icon"/> View Resume</a>
-	              </div>
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-	      <!-- Social Media Sticky Buttons -->
-	      <div id="share">
-  	      <!-- github share button-->
-  	      <a class="github" href="https://github.com/jaimelovera" target="blank"><i class="fab fa-github"></i></a>
-  	      <!-- linkedin share button -->
-  	      <a class="linkedin" href="https://www.linkedin.com/in/jaimelovera" target="blank"><i class="fab fa-linkedin"></i></a>
-	      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 my-auto mx-auto">
+              <img
+                id="profilepic"
+                class="img-fluid mx-auto"
+                src="img/profile-picture.png"
+                alt="My Profile Photo"
+              />
+            </div>
+            <div class="col-lg-8">
+              <div class="row pt-2">
+                <div class="col-lg">
+                  <h1 class="title-text-about text-center">Jaime Lovera</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg">
+                  <h2 class="skills-list text-gray">
+                    Python • SQL • JavaScript • React • HTML • CSS
+                  </h2>
+                </div>
+              </div>
+              <div class="row py-2">
+                <div class="col-lg">
+                  <p class="about-summary text-white">
+                    Hello! Welcome to my online portfolio, a place where I will
+                    share my personal projects. All of my projects are
+                    responsive and are designed with mobile in mind! You can
+                    find more thorough details in the README.md file of each
+                    projects GitHub repository. If you would like to share any
+                    feedback or ideas, I would love to hear about it. I enjoy
+                    meeting like minded people, feel free to contact me.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg">
+                  <a
+                    class="btn btn-resume js-scroll-trigger"
+                    href="pdf/jaimelovera-resume.pdf"
+                    target="_blank"
+                    ><img
+                      class="btn-resume-pic-size"
+                      src="img/resumeicon.png"
+                      alt="Resume Icon"
+                    />
+                    View Resume</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Social Media Sticky Buttons -->
+        <div id="share">
+          <!-- github share button-->
+          <a class="github" href="https://github.com/jaimelovera" target="blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <!-- linkedin share button -->
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/jaimelovera"
+            target="blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
       </div>
     </section>
-
-
-
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
       <h1 class="title-text-projects text-center mb-3 mt-3">Projects</h1>
       <div class="container">
+        <!-- Twitter Clone -->
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
+          <div class="col-lg-5 text-center align-self-center">
+            <img
+              class="img-fluid img-border"
+              src="img/twitter-clone.png"
+              alt="Screenshot of my Twitter Clone"
+            />
+          </div>
+          <div class="col-lg-7 text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Twitter Clone</h4>
+                <p class="text-white">
+                  A full stack web app that implements features similar to that
+                  of Twitter.
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  Firebase, Express, React, React Router, Redux, JavaScript,
+                  Material-UI, HTML, CSS
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://twitter-clone-b442b.web.app/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/twitter-clone"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Music Lyric Finder -->
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
+          <div class="col-lg-5 text-center align-self-center">
+            <img
+              class="img-fluid img-border"
+              src="img/music-lyric-finder.png"
+              alt="Screenshot of my Music Lyric Finder App"
+            />
+          </div>
+          <div class="col-lg-7 order-lg-first text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Music Lyric Finder</h4>
+                <p class="text-white">
+                  A react web application for searching music lyrics using
+                  Reacts built in context API along with the Musixmatch public
+                  API.
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  React, React Router, React's Context API, Axios
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://music-lyric-finder.netlify.app/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/music-lyric-finder"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Personal Finance Blog -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
           <div class="col-lg-5 text-center align-self-center">
-            <img class="img-fluid img-border" src="img/personalfinanceblog.png" alt="Screenshot of Personal Finance Blog Project">
+            <img
+              class="img-fluid img-border"
+              src="img/personalfinanceblog.png"
+              alt="Screenshot of Personal Finance Blog Project"
+            />
           </div>
-          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
-              <div class="d-flex">
-                <div class="project-text">
-                  <h4 class="text-white">Personal Finance Blog</h4>
-                  <p class="text-white">A responsive Django web application I developed to encourage people to save and invest. Implemented a robust content management system, accessible through the administrator login (by appending /admin to URL).</p>
-                  <p class="mb-0 project-utilized-list text-gray">Django | Python | React | JavaScript | Bootstrap | HTML | CSS</p>
-                  <hr class="mb-2 mt-2">
-                  <a class="btn" href="https://jaimelv6.pythonanywhere.com/" target="_blank">Visit</a>
-                  <a class="btn" href="https://github.com/jaimelovera/personal-finance-blog" target="_blank">Code</a>
-                </div>
+          <div class="col-lg-7 text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Personal Finance Blog</h4>
+                <p class="text-white">
+                  A responsive Django web app I developed to encourage people to
+                  save and invest.
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  Django, Python, React, JavaScript, Bootstrap, HTML, CSS
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://jaimelv6.pythonanywhere.com/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/personal-finance-blog"
+                  target="_blank"
+                  >GitHub</a
+                >
               </div>
+            </div>
           </div>
         </div>
 
-        <!-- react google calendar -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+        <!-- Google Calendar Clone -->
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
           <div class="col-lg-5 text-center align-self-center">
-            <img class="img-fluid img-border" src="img/react-google-calendar.png" alt="Screenshot of my Google Calendar React App">
+            <img
+              class="img-fluid img-border"
+              src="img/react-google-calendar.png"
+              alt="Screenshot of my Google Calendar React App"
+            />
           </div>
-          <div class="col-lg-7 text-center pt-3">  <!-- Remove order-lg-first for image on left -->
-              <div class="d-flex">
-                <div class="project-text">
-                  <h4 class="text-white">Google Calendar</h4>
-                  <p class="text-white">A React web application that recreates the Google Calendar interface.</p>
-                  <p class="mb-0 project-utilized-list text-gray">React | JavaScript | HTML | CSS | CSS Grid | CSS Flexbox</p>
-                  <hr class="mb-2 mt-2">
-                  <a class="btn" href="https://google-calendar.netlify.app/" target="_blank">Visit</a>
-                  <a class="btn" href="https://github.com/jaimelovera/google-calendar" target="_blank">Code</a>
-                </div>
+          <div class="col-lg-7 order-lg-first text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Google Calendar Clone</h4>
+                <p class="text-white">
+                  A React web app that recreates the Google Calendar interface.
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  React, JavaScript, HTML, CSS, CSS Grid, CSS Flexbox
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://google-calendar.netlify.app/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/google-calendar"
+                  target="_blank"
+                  >GitHub</a
+                >
               </div>
+            </div>
           </div>
         </div>
 
-        <!-- react investment calculator -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+        <!-- Investment Debt Vizualizer -->
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
           <div class="col-lg-5 text-center align-self-center">
-            <img class="img-fluid img-border" src="img/investment-loan-calculator.png" alt="Screenshot of my Investment Loan Calculator React App">
+            <img
+              class="img-fluid img-border"
+              src="img/investment-debt-vizualizer.png"
+              alt="Screenshot of my Investment Loan Calculator React App"
+            />
           </div>
-          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
-              <div class="d-flex">
-                <div class="project-text">
-                  <h4 class="text-white">Investment & Debt Payoff Calculator</h4>
-                  <p class="text-white">An Interactive data visualization tool that estimates growth of an investment/loan over a time horizon. A standalone React app embedded into my finance website project.</p>
-                  <p class="mb-0 project-utilized-list text-gray">React | Recharts | JavaScript | HTML | CSS</p>
-                  <hr class="mb-2 mt-2">
-                  <a class="btn" href="https://investment-debt-visualizer.netlify.app/" target="_blank">Visit</a>
-                  <a class="btn" href="https://github.com/jaimelovera/investment-debt-visualizer" target="_blank">Code</a>
-                </div>
+          <div class="col-lg-7 text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Investment/Debt Visualizer</h4>
+                <p class="text-white">
+                  An Interactive data visualization tool that estimates growth
+                  of an investment/debt over a time horizon.
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  React, Recharts, JavaScript, HTML, CSS
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://investment-debt-visualizer.netlify.app/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/investment-debt-visualizer"
+                  target="_blank"
+                  >GitHub</a
+                >
               </div>
+            </div>
           </div>
         </div>
 
         <!-- 2048 game -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
           <div class="col-lg-5 text-center align-self-center">
-            <img class="img-fluid img-border saturate-hover" src="img/2048game.png" alt="Screenshot of my 2048 Game Implementation">
+            <img
+              class="img-fluid img-border saturate-hover"
+              src="img/2048game.png"
+              alt="Screenshot of my 2048 Game Implementation"
+            />
           </div>
-          <div class="col-lg-7 text-center pt-3">  <!-- Remove order-lg-first for image on left -->
-              <div class="d-flex">
-                <div class="project-text">
-                  <h4 class="text-white">2048 Game</h4>
-                  <p class="text-white">My JavaScript implementation of the popular <a href="https://play2048.co/" target="_blank">2048 Game</a>. Fully functional with ability to play via various device inputs. <span style="color:#FFF;">&#127918;</span></p>
-                  <p class="mb-0 project-utilized-list text-gray">JavaScript | Bootstrap | HTML | CSS</p>
-                  <hr class="mb-2 mt-2">
-                  <a class="btn" href="https://jaimelovera.github.io/2048-game/" target="_blank">Visit</a>
-                  <a class="btn" href="https://github.com/jaimelovera/2048-game" target="_blank">Code</a>
-                </div>
+          <div class="col-lg-7 order-lg-first text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">2048 Game</h4>
+                <p class="text-white">
+                  A JavaScript implementation of the popular
+                  <a href="https://play2048.co/" target="_blank">2048 Game</a>.
+                  <span style="color: #fff;">&#127918;</span>
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  JavaScript, Bootstrap, HTML, CSS
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn"
+                  href="https://jaimelovera.github.io/2048-game/"
+                  target="_blank"
+                  >Visit</a
+                >
+                <a
+                  class="btn"
+                  href="https://github.com/jaimelovera/2048-game"
+                  target="_blank"
+                  >GitHub</a
+                >
               </div>
+            </div>
           </div>
         </div>
 
         <!-- jaimelovera.com -->
-        <div class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black">
+        <div
+          class="row justify-content-center no-gutters mb-5 mx-2 py-2 projects-border bg-black"
+        >
           <div class="col-lg-5 text-center align-self-center">
-            <img class="img-fluid" src="img/this-website.png" alt="Screenshot of www.jaimelovera.com">
+            <img
+              class="img-fluid"
+              src="img/this-website.png"
+              alt="Screenshot of www.jaimelovera.com"
+            />
           </div>
-          <div class="col-lg-7 order-lg-first text-center pt-3">  <!-- Remove order-lg-first for image on left -->
-              <div class="d-flex">
-                <div class="project-text">
-                  <h4 class="text-white">Personal Website</h4>
-                  <p class="text-white">Designed to serve as my online portfolio to share my projects and information about myself. Responsive web design. <span style="color:#FFF;">&#128578;</span></p>
-                  <p class="mb-0 project-utilized-list text-gray">HTML | CSS | Bootstrap | JavaScript | jQuery</p>
-                  <hr class="mb-2 mt-2">
-                  <a class="btn" href="https://www.jaimelovera.com/" target="_blank">Visit</a>
-                  <a class="btn js-scroll-trigger" href="https://github.com/jaimelovera/online-portfolio-v2" target="_blank">Code</a>
-                </div>
+          <div class="col-lg-7 text-center pt-3">
+            <div class="d-flex">
+              <div class="project-text">
+                <h4 class="text-white">Personal Website</h4>
+                <p class="text-white">
+                  Designed to serve as my online portfolio to share my projects
+                  and information about myself.
+                  <span style="color: #fff;">&#128578;</span>
+                </p>
+                <p class="mb-0 project-utilized-list text-gray">
+                  HTML, CSS, Bootstrap, JavaScript, jQuery
+                </p>
+                <hr class="mb-2 mt-2" />
+                <a
+                  class="btn js-scroll-trigger"
+                  href="https://github.com/jaimelovera/online-portfolio-v2"
+                  target="_blank"
+                  >GitHub</a
+                >
               </div>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
 
-
-
-
     <!-- Contact Section -->
     <section id="contact" class="contact-section bg-black">
-      <h1 class="title-text-contact text-white text-center mb-3 mt-4">Contact</h1>
+      <h1 class="title-text-contact text-white text-center mb-3 mt-4">
+        Contact
+      </h1>
       <div class="container">
         <div class="row px-5">
           <div class="col-md-4 my-3">
             <div class="card h-100">
               <div class="card-body text-center">
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0"><Strong>Address</Strong></h4>
-                <hr class="my-2">
-                <div class="medium text-black-50"><Strong>San Diego, CA</Strong></div>
+                <h4 class="text-uppercase m-0"><strong>Address</strong></h4>
+                <hr class="my-2" />
+                <div class="medium text-black-50">
+                  <strong>San Diego, CA</strong>
+                </div>
               </div>
             </div>
           </div>
@@ -230,9 +441,15 @@
             <div class="card h-100">
               <div class="card-body text-center">
                 <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0"><Strong>Email</Strong></h4>
-                <hr class="my-2">
-                <div class="medium text-black-50"><a class="contact-email-link" href="mailto:getmoneystaybummy@gmail.com"><Strong>lovera.jaime@gmail.com</Strong></a></div>
+                <h4 class="text-uppercase m-0"><strong>Email</strong></h4>
+                <hr class="my-2" />
+                <div class="medium text-black-50">
+                  <a
+                    class="contact-email-link"
+                    href="mailto:getmoneystaybummy@gmail.com"
+                    ><strong>lovera.jaime@gmail.com</strong></a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -240,9 +457,11 @@
             <div class="card h-100">
               <div class="card-body text-center">
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0"><Strong>Phone</Strong></h4>
-                <hr class="my-2">
-                <div class="medium text-black-50"><Strong>(909) 581-5578</Strong></div>
+                <h4 class="text-uppercase m-0"><strong>Phone</strong></h4>
+                <hr class="my-2" />
+                <div class="medium text-black-50">
+                  <strong>(909) 581-5578</strong>
+                </div>
               </div>
             </div>
           </div>
@@ -250,21 +469,32 @@
       </div>
     </section>
 
-
     <!-- Footer -->
     <footer class="bg-black text-white-50">
       <div class="text-center pb-1">
         <!-- github share button-->
-        <a class="github-footer" href="https://github.com/jaimelovera" target="blank"><i class="fab fa-github fa-2x mx-2"></i></a>
+        <a
+          class="github-footer"
+          href="https://github.com/jaimelovera"
+          target="blank"
+          ><i class="fab fa-github fa-2x mx-2"></i
+        ></a>
         <!-- linkedin share button -->
-        <a class="linkedin-footer" href="https://www.linkedin.com/in/jaimelovera" target="blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+        <a
+          class="linkedin-footer"
+          href="https://www.linkedin.com/in/jaimelovera"
+          target="blank"
+          ><i class="fab fa-linkedin fa-2x mx-2"></i
+        ></a>
       </div>
       <div class="container text-right pt-4">
-        <p>&copy; 2020 <a href="https://www.jaimelovera.com/">Jaime Lovera</a>. All rights reserved.</p>
+        <p>
+          &copy; 2020 <a href="https://www.jaimelovera.com/">Jaime Lovera</a>.
+          All rights reserved.
+        </p>
       </div>
-
     </footer>
-    
+
     <!-- JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -273,10 +503,9 @@
 
     <!-- Loader -->
     <script>
-      $(window).on('load', function() {
-		    $('.loader').css('visibility', 'hidden');
+      $(window).on("load", function () {
+        $(".loader").css("visibility", "hidden");
       });
     </script>
-
   </body>
 </html>
