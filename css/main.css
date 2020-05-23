@@ -242,7 +242,6 @@ footer {
   content: "";
   position: absolute;
   background-color: transparent;
-  left: 70px;
   bottom: -200px;
   height: 200px;
   width: 100px;
@@ -311,7 +310,6 @@ footer {
   content: "";
   position: absolute;
   background-color: transparent;
-  left: 70px;
   top: -200px;
   height: 200px;
   width: 100px;
@@ -387,6 +385,13 @@ footer {
   #side-bar {
     visibility: visible;
     width: 70px;
+  }
+
+  #about::before {
+    left: 70px;
+  }
+  #contact::before {
+    left: 70px;
   }
 
   #profilepic {
