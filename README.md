@@ -2,11 +2,13 @@
 
 > My online portfolio to share my projects and provide more information about myself.
 
-## Visit My Hosted Site!
+## Visit My Live Site!
+
 https://www.jaimelovera.com/
 
 ## Motivation
-I wanted a place to share all of my personal projects and to provide contact information.
+
+I wanted a place to share all of my personal projects and to provide more information about myself and my passions.
 
 In the future I plan to redesign this website using React and a database to make this easier to maintain and update. And maybe add a blog!
 
