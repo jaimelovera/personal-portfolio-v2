@@ -233,7 +233,7 @@ footer {
 }
 
 #about {
-  background-image: linear-gradient(to right, #d2d2d2, #dcdcdc, #d2d2d2);
+  background-color: rgb(230, 230, 230);
 }
 
 .about-section {
@@ -253,10 +253,29 @@ footer {
   padding: 0.75rem 0.25rem;
 }
 
+#project-section-top-left-edge {
+  background-color: rgb(230, 230, 230);
+  position: absolute;
+  z-index: 2;
+  left: 70px;
+
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#project-section-top-left-edge-2 {
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  left: 70px;
+  height: 100px;
+  width: 100px;
+}
+
 .projects-section {
   padding: 2rem 0 5rem;
-  background-image: linear-gradient(to right, #d2d2d2, #dcdcdc, #d2d2d2);
-  border-radius: 0 0 120px 0;
+  background-color: rgb(230, 230, 230);
 }
 
 .projects-section .container {
