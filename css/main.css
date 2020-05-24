@@ -242,11 +242,11 @@ footer {
   content: "";
   position: absolute;
   background-color: transparent;
-  bottom: -200px;
-  height: 200px;
-  width: 100px;
-  border-top-left-radius: 100px;
-  box-shadow: 0 -100px 0 0 #000;
+  bottom: -100px;
+  height: 100px;
+  width: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 -50px 0 0 #000;
 }
 
 .about-section {
@@ -310,11 +310,11 @@ footer {
   content: "";
   position: absolute;
   background-color: transparent;
-  top: -200px;
-  height: 200px;
-  width: 100px;
-  border-bottom-left-radius: 100px;
-  box-shadow: 0 100px 0 0 #000;
+  top: -100px;
+  height: 100px;
+  width: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0 50px 0 0 #000;
 }
 
 .contact-section .card {
