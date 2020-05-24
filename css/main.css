@@ -107,7 +107,7 @@ footer {
 
 .img-border {
   border: 1px solid #000;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 @keyframes rotation {
@@ -277,8 +277,8 @@ footer {
 }
 
 .projects-border {
-  border-radius: 30px;
-  border: 15px solid transparent;
+  border-radius: 5px;
+  border: 12px solid #000;
 }
 
 .project-text h4 {
