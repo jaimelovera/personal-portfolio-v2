@@ -35,6 +35,19 @@ a:hover {
   }
 }
 
+.img-fluid {
+  cursor: pointer;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+}
+
+.img-fluid:active {
+  position: relative;
+  z-index: 99;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
 #side-bar {
   position: fixed;
   visibility: hidden;
