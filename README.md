@@ -2,8 +2,6 @@
 
 > My online portfolio to share my projects and provide more information about myself.
 
-> No longer being hosted.
-
 ## Motivation
 
 I wanted a place to share all of my personal projects and to provide more information about myself and my passions.
