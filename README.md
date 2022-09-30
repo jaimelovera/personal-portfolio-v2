@@ -1,13 +1,6 @@
 # Online Portfolio - Version 2
 
-> My online portfolio to share my projects and provide more information about myself.
-
-## Visit My Live Demo
-
-https://jaimelovera.github.io/online-portfolio-v2/
-
-To see the most current iteration visit:
-https://www.jaimelovera.com/
+> My online portfolio to share my projects and provide more information about myself. (No longer being hosted)
 
 ## Motivation
 
@@ -17,4 +10,4 @@ In the future I plan to redesign this website using React and a database to make
 
 ## App Info
 
-#### Author: [Jaime Lovera](https://www.jaimelovera.com/)
+#### Author: [Jaime Lovera](https://github.com/jaimelovera)
