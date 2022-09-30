@@ -1,6 +1,8 @@
 # Online Portfolio - Version 2
 
-> My online portfolio to share my projects and provide more information about myself. (No longer being hosted)
+> My online portfolio to share my projects and provide more information about myself.
+
+> No longer being hosted.
 
 ## Motivation
 
