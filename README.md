@@ -1,6 +1,6 @@
 # Online Portfolio - Version 2
 
-> My online portfolio to share my projects and provide more information about myself.
+> The second iteration of my online portfolio.
 
 ## Motivation
 
