@@ -1,5 +1,7 @@
 # Online Portfolio - Version 2
 
+###### Note: This is not up to date. I'm no longer updating this project.
+
 > The second iteration of my online portfolio.
 
 ## Motivation
